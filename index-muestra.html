@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="css/estilo-muestra.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=PT+Serif&family=Rubik:wght@400;600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Muestra de Carreras</title>
+</head>
+
+<body>
+
+  <section class="contenido">
+
+    <section class="navegador">
+
+      <div class="nav-logos">
+        <div class="logos">
+          <img src="img/logos.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="nav-menu">
+        <div class="menu">
+          <a class="menu-responsive" onclick="accion()" title="Menú" aria-label="Abrir menú">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"
+              stroke-linecap="round">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </a>
+          <ul class="menu-horizontal">
+            <li class="menu-enlace desaparece"> <a href="#">INICIO<b class="separador"> I</b></a></li>
+            <li class="menu-enlace desaparece"> <a href="#">ACTIVIDADES<b class="separador"> I</b></a>
+            </li>
+            <li class="menu-enlace desaparece"> <a href="#">DOE<b class="separador"> I</b></a></li>
+            <li class="menu-enlace desaparece"> <a href="#">CONTACTO<b></b></a></li>
+          </ul>
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <section class="presentacion">
+      <div class="muestra-imagen">
+
+        <img src="img/muestra.png" alt="">
+
+      </div>
+
+    </section>
+
+
+
+    <section class="video">
+      <div class="videos">
+        <img src="img/portada-video.png" alt="">
+      </div>
+    </section>
+
+
+    <section class="video" style="display: none;">
+      <div class="videos">
+        <iframe style="width: 100%;height: 100%;display: block;" src="https://www.youtube.com/embed/NGzN_Vo0LJQ"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+
+    <section class="buscador">
+
+      <div class="cartelera">
+
+        <div class="div-img">
+
+          <img src="img/cartelera.png" alt="">
+
+        </div>
+
+      </div>
+
+      <div class="buscar">
+
+        <div class="card">
+
+          <div class="campo">
+            <label for="institucion">Institución</label>
+            <select id="institucion">
+              <option value="">Cualquiera...</option>
+              <option>UNS</option>
+              <option>UTN</option>
+              <option>UPSO</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="area">Área disciplinar</label>
+            <select id="area">
+              <option value="">Cualquiera...</option>
+              <option>Ciencias Exactas</option>
+              <option>Humanidades</option>
+              <option>Ciencias Sociales</option>
+              <option>Ingeniería</option>
+              <option>Arte y Diseño</option>
+              <option>Salud</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="modalidad">Modalidad de Dictado</label>
+            <select id="modalidad">
+              <option value="">Cualquiera...</option>
+              <option>Presencial</option>
+              <option>Virtual</option>
+              <option>Híbrida</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="duracion">Duración</label>
+            <select id="duracion">
+              <option value="">Cualquiera...</option>
+              <option>1 cuatrimestre</option>
+              <option>2 cuatrimestres</option>
+              <option>3 cuatrimestres</option>
+              <option>4 cuatrimestres</option>
+              <option>Más de 4 cuatrimestres</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="localidad">Localidad de Dictado</label>
+            <select id="localidad">
+              <option value="">Cualquiera...</option>
+              <option>Ingeniero White</option>
+              <option>Punta Alta</option>
+              <option>Bahía Blanca</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="arancelada">¿Es arancelada?</label>
+            <select id="arancelada">
+              <option value="">Cualquiera...</option>
+              <option>Sí</option>
+              <option>No</option>
+            </select>
+          </div>
+
+          <button class="btn-buscar" onclick="buscar()">
+            Buscar
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+
+          <div class="resultados" id="resultados" style="display:none;">
+            <p class="resultados-header" id="resultados-header"></p>
+            <div class="resultados-grid" id="resultados-grid"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="cronograma">
+
+      <div>
+        <img src="img/cronograma.png" alt="">
+      </div>
+
+    </section>
+
+
+
+  </section>
+
+  <section class="pie">
+    <div class="pie-contenedor">
+
+      <div class="part-1">
+        <img src="img/logo70.png" alt="70 años Universidad Nacional del Sur">
+      </div>
+
+      <div class="pie-derecha">
+        <div class="part-2">
+          <div><a href="#" target="_blank" title="twitter Muestra de Carreras"><img src="img/img5.jpeg"
+                alt="Twitter"></a></div>
+          <div><a href="#" target="_blank" title="facebook Muestra de Carreras"><img src="img/img7.jpeg"
+                alt="Facebook"></a></div>
+          <div><a href="#" target="_blank" title="Muestra de Carreras"><img src="img/img6.jpeg" alt="YouTube"></a></div>
+          <div><a href="#" target="_blank" title="instagram Muestra de Carreras"><img src="img/img3.jpeg"
+                alt="Instagram"></a></div>
+        </div>
+
+        <div class="pie-texto">
+          <p>&copy; 2026 MUESTRA2026 | UNIVERSIDAD NACIONAL DEL SUR<br>muestracarreras@uns.edu.ar</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script>
+    function accion() {
+      var enlace = document.getElementsByClassName('menu-enlace');
+      for (var i = 0; i < enlace.length; i++) {
+        enlace[i].classList.toggle('desaparece');
+      }
+    }
+  </script>
+
+  <script>
+    const propuestas = [
+      {
+        titulo: "Tecnicatura en Desarrollo de Software",
+        institucion: "UTN",
+        area: "Ingeniería",
+        modalidad: "Presencial",
+        duracion: "4 cuatrimestres",
+        localidad: "Bahía Blanca",
+        arancelada: "Sí",
+        url: "https://www.frbb.utn.edu.ar/"
+      },
+      {
+        titulo: "Diplomatura en Gestión Cultural",
+        institucion: "UNS",
+        area: "Humanidades",
+        modalidad: "Híbrida",
+        duracion: "2 cuatrimestres",
+        localidad: "Bahía Blanca",
+        arancelada: "No",
+        url: "https://www.uns.edu.ar/"
+      }
+    ];
+
+    function buscar() {
+      const institucion = document.getElementById('institucion').value;
+      const area = document.getElementById('area').value;
+      const modalidad = document.getElementById('modalidad').value;
+      const duracion = document.getElementById('duracion').value;
+      const localidad = document.getElementById('localidad').value;
+      const arancelada = document.getElementById('arancelada').value;
+
+      const resultados = propuestas.filter(p => {
+        return (
+          (!institucion || p.institucion === institucion) &&
+          (!area || p.area === area) &&
+          (!modalidad || p.modalidad === modalidad) &&
+          (!duracion || p.duracion === duracion) &&
+          (!localidad || p.localidad === localidad) &&
+          (!arancelada || p.arancelada === arancelada)
+        );
+      });
+
+      mostrarResultados(resultados);
+      /*limpiarCampos(); */
+    }
+
+    function limpiarCampos() {
+      document.getElementById('institucion').value = '';
+      document.getElementById('area').value = '';
+      document.getElementById('modalidad').value = '';
+      document.getElementById('duracion').value = '';
+      document.getElementById('localidad').value = '';
+      document.getElementById('arancelada').value = '';
+    }
+
+    function mostrarResultados(resultados) {
+      const seccion = document.getElementById('resultados');
+      const header = document.getElementById('resultados-header');
+      const grid = document.getElementById('resultados-grid');
+
+      seccion.style.display = 'block';
+      grid.innerHTML = '';
+
+      if (resultados.length === 0) {
+        header.textContent = '';
+        grid.innerHTML = `
+              <div class="sin-resultados">
+                No se encontraron propuestas con los filtros seleccionados.
+              </div>`;
+        return;
+      }
+
+      header.textContent = `${resultados.length} propuesta${resultados.length > 1 ? 's' : ''} encontrada${resultados.length > 1 ? 's' : ''}`;
+
+      resultados.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'propuesta-card';
+        card.innerHTML = `
+              <h3>${p.titulo}</h3>
+              <div class="institucion">${p.institucion}</div>
+              <div class="tags">
+                <span class="tag"> ${p.area}</span>
+                <span class="tag"> ${p.modalidad}</span>
+                <span class="tag"> ${p.duracion}</span>
+                <span class="tag"> ${p.localidad}</span>
+                <span class="tag ${p.arancelada === 'No' ? 'arancel-no' : 'arancel-si'}">
+                  ${p.arancelada === 'No' ? ' Gratuita' : ' Arancelada'}
+                </span>
+              </div>
+              ${p.url ? `<a class="btn-conocer-mas" href="${p.url}" target="_blank" rel="noopener noreferrer">Conocer más</a>` : ''}
+            `;
+        grid.appendChild(card);
+      });
+
+      seccion.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  </script>
+
+</body>
+
+</html>

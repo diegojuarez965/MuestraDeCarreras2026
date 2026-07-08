@@ -229,30 +229,9 @@
     }
   </script>
 
-  <script>
-    const propuestas = [
-      {
-        titulo: "Tecnicatura en Desarrollo de Software",
-        institucion: "UTN",
-        area: "Ingeniería",
-        modalidad: "Presencial",
-        duracion: "4 cuatrimestres",
-        localidad: "Bahía Blanca",
-        arancelada: "Sí",
-        url: "https://www.frbb.utn.edu.ar/"
-      },
-      {
-        titulo: "Diplomatura en Gestión Cultural",
-        institucion: "UNS",
-        area: "Humanidades",
-        modalidad: "Híbrida",
-        duracion: "2 cuatrimestres",
-        localidad: "Bahía Blanca",
-        arancelada: "No",
-        url: "https://www.uns.edu.ar/"
-      }
-    ];
+  <script src="js/propuestas.js"></script>
 
+  <script>
     function buscar() {
       const institucion = document.getElementById('institucion').value;
       const area = document.getElementById('area').value;
@@ -326,6 +305,52 @@
 
       seccion.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+
+    function inicializarFiltros() {
+      const poblarSelect = (id, propiedad) => {
+        const select = document.getElementById(id);
+        if (!select) return;
+        
+        const valores = [...new Set(propuestas.map(p => p[propiedad]))]
+          .filter(v => v);
+
+        if (propiedad === 'duracion') {
+          const obtenerPeso = (str) => {
+            if (str === 'Otra') {
+              return 999;
+            }
+            if (str.includes('cuatrimestre')) {
+              const num = parseInt(str) || 0;
+              return num;
+            }
+            return 100;
+          };
+          valores.sort((a, b) => obtenerPeso(a) - obtenerPeso(b));
+        } else if (propiedad === 'arancelada') {
+          // Mantener No antes de Sí
+          valores.sort((a, b) => b.localeCompare(a, 'es', { sensitivity: 'base' }));
+        } else {
+          valores.sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));
+        }
+
+        select.innerHTML = '<option value="">Cualquiera...</option>';
+        valores.forEach(v => {
+          const opt = document.createElement('option');
+          opt.value = v;
+          opt.textContent = v;
+          select.appendChild(opt);
+        });
+      };
+
+      poblarSelect('institucion', 'institucion');
+      poblarSelect('area', 'area');
+      poblarSelect('modalidad', 'modalidad');
+      poblarSelect('duracion', 'duracion');
+      poblarSelect('localidad', 'localidad');
+      poblarSelect('arancelada', 'arancelada');
+    }
+
+    inicializarFiltros();
   </script>
 
 </body>

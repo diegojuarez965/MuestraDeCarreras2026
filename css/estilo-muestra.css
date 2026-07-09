@@ -367,16 +367,6 @@ body {
   font-weight: 500;
 }
 
-.buscar .tag.arancel-no {
-  background-color: #d4edda;
-  color: #2e7d4f;
-}
-
-.buscar .tag.arancel-si {
-  background-color: #fde8e8;
-  color: #b94040;
-}
-
 .buscar .btn-conocer-mas {
   display: inline-block;
   margin-top: 14px;

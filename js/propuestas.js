@@ -2,7 +2,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Diseño y Producción de Indumentaria",
             "institucion": "Instituto Superior de la Bahía",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -12,7 +12,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Diseño de Interiores",
             "institucion": "Instituto Superior de la Bahía",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -22,7 +22,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Acompañante Terapéutico",
             "institucion": "Instituto Superior de la Bahía",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -32,7 +32,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Periodismo",
             "institucion": "Instituto Superior En Ciencias De La Comunicación Social",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -42,7 +42,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Locución",
             "institucion": "Instituto Superior En Ciencias De La Comunicación Social",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -52,7 +52,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ciencias Geológicas",
             "institucion": "UNS - Departamento de Geología",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -62,7 +62,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Medio Ambiente",
             "institucion": "UNS - Departamento de Geología",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -72,7 +72,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Geociencias",
             "institucion": "UNS - Departamento de Geología",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -82,7 +82,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Agronómica",
             "institucion": "UNS - Departamento de Agronomía",
-            "area": "CIENCIAS AGROPECUARIAS Y AGROINDUSTRIALES",
+            "area": "Ciencias Agropecuarias y Agroindustriales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -92,7 +92,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior Agraria en Suelos y Aguas",
             "institucion": "UNS - Departamento de Agronomía",
-            "area": "CIENCIAS AGROPECUARIAS Y AGROINDUSTRIALES",
+            "area": "Ciencias Agropecuarias y Agroindustriales",
             "modalidad": "Presencial",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -102,7 +102,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Parques y Jardines",
             "institucion": "UNS - Departamento de Agronomía",
-            "area": "CIENCIAS AGROPECUARIAS Y AGROINDUSTRIALES",
+            "area": "Ciencias Agropecuarias y Agroindustriales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -112,7 +112,7 @@ const propuestas = [
       {
             "titulo": "Abogacía",
             "institucion": "UNS - Departamento de Derecho",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -122,7 +122,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Seguridad Pública",
             "institucion": "UNS - Departamento de Derecho",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -132,7 +132,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Traductorado Técnico -Científico en Lengua Inglesa",
             "institucion": "Instituto Goyena",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -142,7 +142,7 @@ const propuestas = [
       {
             "titulo": "Oficiales y Suboficiales de la Armada",
             "institucion": "Armada Argentina",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Punta Alta",
@@ -152,7 +152,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Química",
             "institucion": "UNS - Departamento de Ingeniería Química",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -162,7 +162,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Operaciones Industriales",
             "institucion": "UNS - Departamento de Ingeniería Química",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -172,7 +172,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Emprendimientos Agroalimentarios",
             "institucion": "UNS - Departamento de Ingeniería Química",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Virtual",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -182,7 +182,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Kinesiología y Fisiatría",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -192,7 +192,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Podología",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -202,7 +202,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Actividad Física",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -212,7 +212,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Terapia Ocupacional",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -222,7 +222,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Actividad Física",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -232,7 +232,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Podología",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -242,7 +242,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Cosmetología",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -252,7 +252,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Cosmetología Facial y Corporal",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "9 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -262,7 +262,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Yoga y Salud Integral",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "9 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -272,7 +272,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Ciencia de Datos",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -282,7 +282,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Lic. en Ciencias de Datos",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -292,7 +292,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Lic. en Diseño de Comunicación Visual",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -302,7 +302,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Diseño de Espacios Interiores",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -312,7 +312,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Lic. de Diseño e Innovación en la Moda",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Virtual",
             "duracion": "2 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -322,7 +322,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Psicopedagogía",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Híbrida",
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -332,7 +332,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Psicopedagogía",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -342,7 +342,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Gestión de la Educación",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -352,7 +352,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria de Modalidad Técnico Profesional",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Híbrida",
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -362,7 +362,7 @@ const propuestas = [
       {
             "titulo": "Profesorado Universitario",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Híbrida",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -372,7 +372,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Ciberseguridad",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -382,7 +382,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Seguridad Publica y Ciudadana",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "SEGURIDAD PÚBLICA",
+            "area": "Seguridad Pública",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -392,7 +392,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Ciberseguridad",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -402,7 +402,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Seguridad Pública y Ciudadana",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "SEGURIDAD PÚBLICA",
+            "area": "Seguridad Pública",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -412,7 +412,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Higiene y Seguridad Laboral",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "SEGURIDAD PÚBLICA",
+            "area": "Seguridad Pública",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -422,7 +422,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ortesis y Prótesis",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -432,7 +432,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Acompañamiento Terapéutico",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -442,7 +442,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Licenciatura en Psicomotricidad",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -452,7 +452,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Acompañamiento Terapéutico en Salud Mental y Adicciones",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -462,7 +462,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Podología",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -472,7 +472,7 @@ const propuestas = [
       {
             "titulo": "Maestría en Kinesiología y Fisioterapia Neurológica",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -482,7 +482,7 @@ const propuestas = [
       {
             "titulo": "Maestría en Kinesiología y Fisioterapia Cardiorrespiratoria",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -492,7 +492,7 @@ const propuestas = [
       {
             "titulo": "Maestría en Política y Gestión de la Discapacidad e Inclusión Social",
             "institucion": "Fundación Universidad Patagónica",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -502,7 +502,7 @@ const propuestas = [
       {
             "titulo": "Bioquimica",
             "institucion": "UNS - Departamento de Biología, Bioquímica y Farmacia",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "11 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -512,7 +512,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ciencias Biológicas",
             "institucion": "UNS - Departamento de Biología, Bioquímica y Farmacia",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -522,7 +522,7 @@ const propuestas = [
       {
             "titulo": "Farmacia",
             "institucion": "UNS - Departamento de Biología, Bioquímica y Farmacia",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -532,7 +532,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Ciencias Biológicas",
             "institucion": "UNS - Departamento de Biología, Bioquímica y Farmacia",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -542,7 +542,7 @@ const propuestas = [
       {
             "titulo": "Variado",
             "institucion": "CFP 403",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -552,7 +552,7 @@ const propuestas = [
       {
             "titulo": "Danzas Contemporáneas (Tecnicatura Intérprete Bailarín en Danzas Contemporáneas / Profesorado en Danzas Contemporáneas)",
             "institucion": "Escuela de Danzas Alba Lutecia",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -562,7 +562,7 @@ const propuestas = [
       {
             "titulo": "Expresión Corporal / Profesorado de Danza. Orientación en Expresión Corporal",
             "institucion": "Escuela de Danzas Alba Lutecia",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -572,7 +572,7 @@ const propuestas = [
       {
             "titulo": "Danzas Folklóricas / Tecnicatura en Danzas Folklóricas / Profesorado en Danza. Orientación en Danzas Folklóricas",
             "institucion": "Escuela de Danzas Alba Lutecia",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -582,7 +582,7 @@ const propuestas = [
       {
             "titulo": "Danzas Clásicas / Formación Básica para la Tecnicatura Intérprete Bailarín en Danzas Clásicas y El Profesorado en Danzas Clásicas",
             "institucion": "Escuela de Danzas Alba Lutecia",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -592,7 +592,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Geografía",
             "institucion": "UNS - Departamento de Geografía y Turismo",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -602,7 +602,7 @@ const propuestas = [
       {
             "titulo": "Profesorado Universitario en Geografía",
             "institucion": "UNS - Departamento de Geografía y Turismo",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -612,7 +612,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Cartografía, Teledetección y Sistemas de Información Geográfica",
             "institucion": "UNS - Departamento de Geografía y Turismo",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -622,7 +622,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Oceanografía",
             "institucion": "UNS - Departamento de Geografía y Turismo",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -632,7 +632,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Oceanografía",
             "institucion": "UNS - Departamento de Geografía y Turismo",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -642,7 +642,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Turismo",
             "institucion": "UNS - Departamento de Geografía y Turismo",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "9 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -652,7 +652,7 @@ const propuestas = [
       {
             "titulo": "Arquitectura",
             "institucion": "UNS - Departamento de Geografía y Turismo",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -662,7 +662,7 @@ const propuestas = [
       {
             "titulo": "Abogacía",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "9 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -672,7 +672,7 @@ const propuestas = [
       {
             "titulo": "Actuario",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -682,7 +682,7 @@ const propuestas = [
       {
             "titulo": "Contador Publico",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -692,7 +692,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Administración",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -702,7 +702,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Administración Agraria",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -712,7 +712,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ambiente y Energias Renovables",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -722,7 +722,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Bioinformatica",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -732,7 +732,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ciencia de Datos",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -742,7 +742,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ciencia Política y de Gobierno",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -752,7 +752,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Comercialización-Marketing",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -762,7 +762,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Criminología y Seguridad",
             "institucion": "Siglo 21",
-            "area": "SEGURIDAD PÚBLICA",
+            "area": "Seguridad Pública",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -772,7 +772,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Diseño y Animación Digital",
             "institucion": "Siglo 21",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -782,7 +782,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Educación y Nuevas Tecnologías",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -792,7 +792,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Finanzas",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -802,7 +802,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Gestión Ambiental",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -812,7 +812,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Gestión de Los Recursos Humanos",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -822,7 +822,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Gestión Deportiva",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -832,7 +832,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Gestión Turística",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -842,7 +842,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Hidrocarburos y Geociencia",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -852,7 +852,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Higiene Seguridad y Medio Ambiente del Trabajo",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -862,7 +862,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Inteligencia Artificial y Robótica",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -872,7 +872,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Inteligencia de Negocios Digitales",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -882,7 +882,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Logística Global",
             "institucion": "Siglo 21",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -892,7 +892,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Matemáticas",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -902,7 +902,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Periodismo",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -912,7 +912,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Publicidad",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -922,7 +922,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Relaciones Internacionales",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -932,7 +932,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Relaciones Públicas e Institucionales",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -942,7 +942,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Seguridad Informática",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -952,7 +952,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Informática",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -962,7 +962,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Psicología",
             "institucion": "Juan 23",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -972,7 +972,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Primaria",
             "institucion": "Juan 23",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -982,7 +982,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Inglés",
             "institucion": "Juan 23",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -992,7 +992,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Matemática",
             "institucion": "Juan 23",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1002,7 +1002,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Filosofía",
             "institucion": "Juan 23",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1012,7 +1012,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Psicopedagogía",
             "institucion": "Juan 23",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1022,7 +1022,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Subastas y Corretaje Inmobiliario",
             "institucion": "Juan 23",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1032,7 +1032,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Automatización y Control",
             "institucion": "Juan 23",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1042,7 +1042,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Administración Financiera",
             "institucion": "Juan 23",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1052,7 +1052,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Análisis de Sistemas",
             "institucion": "Juan 23",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1062,7 +1062,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Marketing",
             "institucion": "Juan 23",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1072,7 +1072,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Gestión Ambiental y Salud",
             "institucion": "Juan 23",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1082,7 +1082,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Dirección de Equipos de Venta",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1092,7 +1092,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Protocolo, Organización de Eventos y Relaciones Públicas",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1102,7 +1102,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Gestión Contable e Impositiva",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1112,7 +1112,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Gestión de Empresas Familiares",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1122,7 +1122,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Gestión de Moda",
             "institucion": "Siglo 21",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1132,7 +1132,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Higiene y Seguridad Laboral",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1142,7 +1142,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Investigacion de la Escena del Crimen",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1152,7 +1152,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Relaciones Laborales",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1162,7 +1162,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Administración y Gestión de Políticas Públicas",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1172,7 +1172,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Diseño y Animación Digital",
             "institucion": "Siglo 21",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1182,7 +1182,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Gestión Administrativa de Servicios de Salud",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1192,7 +1192,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Gestión de Recursos Turísticos",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1202,7 +1202,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Gestión y Auditorias Ambientales",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1212,7 +1212,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Hidrocarburos y Geociencia",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1222,7 +1222,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Marketing y Publicidad Digital",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1232,7 +1232,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Promoción Comunitaria en Niñez y Adolescencia",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1242,7 +1242,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Redes Informaticas y Telecomunicaciones",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1252,7 +1252,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Diseño y Desarrollo de Videojuegos",
             "institucion": "Siglo 21",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1262,7 +1262,7 @@ const propuestas = [
       {
             "titulo": "Escribania",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1272,7 +1272,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Educación",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1282,7 +1282,7 @@ const propuestas = [
       {
             "titulo": "Profesorado Universitario para El Nivel Secundario y Superior",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1292,7 +1292,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Desarrollos y Negocios Inmobiliarios",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1302,7 +1302,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Administración de Servicios de Salud",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1312,7 +1312,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Psicopedagogía",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1322,7 +1322,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Programación",
             "institucion": "Siglo 21",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1332,7 +1332,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Data Science",
             "institucion": "Siglo 21",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1342,7 +1342,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Quality Assurence",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1352,7 +1352,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Cloud Administration",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1362,7 +1362,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Seguridad Informática",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1372,7 +1372,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Redes Informáticas",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1382,7 +1382,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Relaciones Laborales",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1392,7 +1392,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Customer Experience",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1402,7 +1402,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Seguros",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1412,7 +1412,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Inbound Marketing",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1422,7 +1422,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Gestión Contable",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1432,7 +1432,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Periodismo y Nuevas Tecnologías",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1442,7 +1442,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Gestión Hotelera",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1452,7 +1452,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Marketing Digital",
             "institucion": "Siglo 21",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1462,7 +1462,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Gestión Agraria",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1472,7 +1472,7 @@ const propuestas = [
       {
             "titulo": "Carrera de Planificación y Organización de Eventos",
             "institucion": "Siglo 21",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1482,7 +1482,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Kinesiología y Fisiatría",
             "institucion": "UCALP",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1492,7 +1492,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Nutrición",
             "institucion": "UCALP",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1502,7 +1502,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Terapia Ocupacional",
             "institucion": "UCALP",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1512,7 +1512,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Fonoaudiología",
             "institucion": "UCALP",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1522,7 +1522,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Criminalística",
             "institucion": "UCALP",
-            "area": "SEGURIDAD PÚBLICA",
+            "area": "Seguridad Pública",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1532,7 +1532,7 @@ const propuestas = [
       {
             "titulo": "Abogacía",
             "institucion": "UNISAL",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1542,7 +1542,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Psicología",
             "institucion": "UNISAL",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1552,7 +1552,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Comunicación",
             "institucion": "UNISAL",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1562,7 +1562,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Comunicación Digital",
             "institucion": "UNISAL",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1572,7 +1572,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Educación Ciclo de Complementación Curricular",
             "institucion": "UNISAL",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1582,7 +1582,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Psicopedagogía Ciclo de Complementación Curricular",
             "institucion": "UNISAL",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1592,7 +1592,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Trabajo Social Ciclo de Complementación Curricular",
             "institucion": "UNISAL",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Virtual",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1602,7 +1602,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería en Computación",
             "institucion": "UNS - Departamento de Ciencias e Ingeniería de la Computación",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1612,7 +1612,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ciencias de la Computación",
             "institucion": "UNS - Departamento de Ciencias e Ingeniería de la Computación",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1622,7 +1622,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería en Sistemas de Información",
             "institucion": "UNS - Departamento de Ciencias e Ingeniería de la Computación",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1632,7 +1632,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Programación Web y Móvil",
             "institucion": "UNS - Departamento de Ciencias e Ingeniería de la Computación",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "5 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1642,7 +1642,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Inicial",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1652,7 +1652,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Primaria",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1662,7 +1662,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Especial",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1672,7 +1672,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Biología",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1682,7 +1682,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Ciencia Política",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1692,7 +1692,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Historia",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1702,7 +1702,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación en Inglés",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1712,7 +1712,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Lengua y Literatura",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1722,7 +1722,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Educación Secundaria en Matemática",
             "institucion": "ISFD N° 3",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1732,7 +1732,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ciencias Ambientales",
             "institucion": "UNS - Departamento de Química",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1742,7 +1742,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Química",
             "institucion": "UNS - Departamento de Química",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1752,7 +1752,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Química",
             "institucion": "UNS - Departamento de Química",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1762,7 +1762,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Física",
             "institucion": "UNS - Departamento de Física",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1772,7 +1772,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Física",
             "institucion": "UNS - Departamento de Física",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1782,7 +1782,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Óptica",
             "institucion": "UNS - Departamento de Física",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1792,7 +1792,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Óptica y Contactología",
             "institucion": "UNS - Departamento de Física",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1802,7 +1802,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Geofísica",
             "institucion": "UNS - Departamento de Física",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1812,7 +1812,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Matemática",
             "institucion": "UNS - Departamento de Matemática",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1822,7 +1822,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Matemática Aplicada",
             "institucion": "UNS - Departamento de Matemática",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1832,7 +1832,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Matemática",
             "institucion": "UNS - Departamento de Matemática",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1842,7 +1842,7 @@ const propuestas = [
       {
             "titulo": "Profesorado de Teatro",
             "institucion": "Escuela de Teatro",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1852,7 +1852,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Actuación",
             "institucion": "Escuela de Teatro",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1862,7 +1862,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Diseño y Producción de Espectaculos",
             "institucion": "Escuela de Teatro",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1872,7 +1872,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Escenografia",
             "institucion": "Escuela de Teatro",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1882,7 +1882,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Maquillaje",
             "institucion": "Escuela de Teatro",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1892,7 +1892,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Iluminación",
             "institucion": "Escuela de Teatro",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1902,7 +1902,7 @@ const propuestas = [
       {
             "titulo": "Teatro Adolescentes",
             "institucion": "Escuela de Teatro",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1912,7 +1912,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería en Alimentos",
             "institucion": "UNS - Departamento de Ingeniería Química",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1922,7 +1922,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Petróleo y Gas",
             "institucion": "UNS - Departamento de Ingeniería Química",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Híbrida",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1932,7 +1932,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Electrónica",
             "institucion": "UNS - Departamento de Ingeniería Eléctrica y de Computadoras",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1942,7 +1942,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Electricista",
             "institucion": "UNS - Departamento de Ingeniería Eléctrica y de Computadoras",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1952,7 +1952,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Sistemas Electrónicos Industriales Inteligentes",
             "institucion": "UNS - Departamento de Ingeniería Eléctrica y de Computadoras",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1962,7 +1962,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería en Telecomunicaciones",
             "institucion": "UNS - Departamento de Ingeniería Eléctrica y de Computadoras",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1972,7 +1972,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Civil",
             "institucion": "UTN",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1982,7 +1982,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Mecánica",
             "institucion": "UTN",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -1992,7 +1992,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Eléctrica",
             "institucion": "UTN",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2002,7 +2002,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Electrónica",
             "institucion": "UTN",
-            "area": "CIENCIAS EXACTAS",
+            "area": "Ciencias Exactas",
             "modalidad": "Presencial",
             "duracion": "11 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2012,7 +2012,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Organización Industrial",
             "institucion": "UTN",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2022,7 +2022,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Programación",
             "institucion": "UTN",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2032,7 +2032,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Radiología",
             "institucion": "UTN",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2042,7 +2042,7 @@ const propuestas = [
       {
             "titulo": "Medicina",
             "institucion": "UNS - Departamento de Ciencias de la Salud",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2052,7 +2052,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Enfermería",
             "institucion": "UNS - Departamento de Ciencias de la Salud",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Híbrida",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2062,7 +2062,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Obstetricia",
             "institucion": "UNS - Departamento de Ciencias de la Salud",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2072,7 +2072,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Acompañamiento Terapéutico",
             "institucion": "UNS - Departamento de Ciencias de la Salud",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2082,7 +2082,7 @@ const propuestas = [
       {
             "titulo": "Gastronomia",
             "institucion": "CFP 402",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2092,7 +2092,7 @@ const propuestas = [
       {
             "titulo": "Industria Alimentaria",
             "institucion": "CFP 402",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2102,7 +2102,7 @@ const propuestas = [
       {
             "titulo": "Salud",
             "institucion": "CFP 402",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2112,7 +2112,7 @@ const propuestas = [
       {
             "titulo": "Administración y Comercialización",
             "institucion": "CFP 402",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2122,7 +2122,7 @@ const propuestas = [
       {
             "titulo": "Tecnologia",
             "institucion": "CFP 402",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2132,7 +2132,7 @@ const propuestas = [
       {
             "titulo": "Actividad Agropecuaria",
             "institucion": "CFP 402",
-            "area": "CIENCIAS AGROPECUARIAS Y AGROINDUSTRIALES",
+            "area": "Ciencias Agropecuarias y Agroindustriales",
             "modalidad": "Presencial",
             "duracion": "2 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2142,7 +2142,7 @@ const propuestas = [
       {
             "titulo": "Energia Electrica",
             "institucion": "CFP 402",
-            "area": "CIENCIAS AMBIENTALES",
+            "area": "Ciencias Ambientales",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2152,7 +2152,7 @@ const propuestas = [
       {
             "titulo": "Comunicacion Social",
             "institucion": "CFP 402",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2162,7 +2162,7 @@ const propuestas = [
       {
             "titulo": "Madera y Muebles",
             "institucion": "CFP 402",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2172,7 +2172,7 @@ const propuestas = [
       {
             "titulo": "Construcciones",
             "institucion": "CFP 402",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "2 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2182,7 +2182,7 @@ const propuestas = [
       {
             "titulo": "Metalmecanica",
             "institucion": "CFP 402",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2192,7 +2192,7 @@ const propuestas = [
       {
             "titulo": "Estetica Profesional",
             "institucion": "CFP 402",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2202,7 +2202,7 @@ const propuestas = [
       {
             "titulo": "Textil e Indumentaria",
             "institucion": "CFP 402",
-            "area": "CIENCIAS NATURALES",
+            "area": "Ciencias Naturales",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2212,7 +2212,7 @@ const propuestas = [
       {
             "titulo": "Industria Grafica",
             "institucion": "CFP 402",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
@@ -2222,7 +2222,7 @@ const propuestas = [
       {
             "titulo": "Diplomatura Universitaria en Gestión Administrativa",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "3 cuatrimestres",
             "localidad": "Benito Juárez",
@@ -2232,7 +2232,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Emprendimientos del Diseño",
             "institucion": "UPSO",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "5 cuatrimestres",
             "localidad": "Carhué",
@@ -2242,7 +2242,7 @@ const propuestas = [
       {
             "titulo": "Enfermería",
             "institucion": "UPSO",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Carmen De Patagones",
@@ -2252,7 +2252,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Producción Agropecuaria Sostenible",
             "institucion": "UPSO",
-            "area": "CIENCIAS AGROPECUARIAS Y AGROINDUSTRIALES",
+            "area": "Ciencias Agropecuarias y Agroindustriales",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Coronel Dorrego",
@@ -2262,7 +2262,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Marketing Digital y Comercio Electrónico",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Coronel Pringles",
@@ -2272,7 +2272,7 @@ const propuestas = [
       {
             "titulo": "Formación Profesional: Cuidado de Personas Adultas Mayores",
             "institucion": "UPSO",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "2 cuatrimestres",
             "localidad": "Coronel Suárez",
@@ -2282,7 +2282,7 @@ const propuestas = [
       {
             "titulo": "Martillero y Corredor Público",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "6 cuatrimestres",
             "localidad": "Daireaux",
@@ -2292,7 +2292,7 @@ const propuestas = [
       {
             "titulo": "Diplomatura Universitaria en Gestión del Comercio Exterior",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "3 cuatrimestres",
             "localidad": "Darregueira",
@@ -2302,7 +2302,7 @@ const propuestas = [
       {
             "titulo": "Acompañante Terapéutico",
             "institucion": "UPSO",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "2 cuatrimestres",
             "localidad": "General La Madrid",
@@ -2312,7 +2312,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Complementación Curricular de la Licenciatura en Psicopedagogía",
             "institucion": "UPSO",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Virtual",
             "duracion": "4 cuatrimestres",
             "localidad": "Guaminí",
@@ -2322,7 +2322,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Artes Visuales Orientación Pintura, Escultura, Grabado",
             "institucion": "Escuela de Artes Visuales",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2332,7 +2332,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Artes Visuales Orientación Diseño Gráfico",
             "institucion": "Escuela de Artes Visuales",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2342,7 +2342,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Artes Visuales Orientación Cerámica",
             "institucion": "Escuela de Artes Visuales",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2352,7 +2352,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Realizador en Artes Visuales",
             "institucion": "Escuela de Artes Visuales",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2362,7 +2362,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Diseño Gráfico",
             "institucion": "Escuela de Artes Visuales",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2372,7 +2372,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Ilustración",
             "institucion": "Escuela de Artes Visuales",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2382,7 +2382,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura en Cerámica",
             "institucion": "Escuela de Artes Visuales",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2392,7 +2392,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Ciencias de la Educación",
             "institucion": "UNS - Departamento de Ciencias de la Educación",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2402,7 +2402,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Educación Inicial",
             "institucion": "UNS - Departamento de Ciencias de la Educación",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2412,7 +2412,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Educación Primaria",
             "institucion": "UNS - Departamento de Ciencias de la Educación",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2422,7 +2422,7 @@ const propuestas = [
       {
             "titulo": "Contador Público",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2432,7 +2432,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Administración",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2442,7 +2442,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Educación Secundaria en Ciencias de la Administración",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2452,7 +2452,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Educación Secundaria y Superior en Ciencias de la Administración",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2462,7 +2462,7 @@ const propuestas = [
       {
             "titulo": "Doctorado en Ciencias de la Administración",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -2472,7 +2472,7 @@ const propuestas = [
       {
             "titulo": "Maestría en Administración",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -2482,7 +2482,7 @@ const propuestas = [
       {
             "titulo": "Maestría en Administración Financiera de Negocios",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -2492,7 +2492,7 @@ const propuestas = [
       {
             "titulo": "Maestría en Contabilidad y Auditoría",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -2502,7 +2502,7 @@ const propuestas = [
       {
             "titulo": "Especialización en Contabilidad Superior, Control y Auditoría",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -2512,7 +2512,7 @@ const propuestas = [
       {
             "titulo": "Especialización en Gestión de Recursos Humanos",
             "institucion": "UNS - Departamento de Ciencias de la Administración",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -2522,7 +2522,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Tecnologías de Programación",
             "institucion": "UPSO",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "4 cuatrimestres",
             "localidad": "Laprida",
@@ -2532,7 +2532,7 @@ const propuestas = [
       {
             "titulo": "Ciclo de Complementación Curricular de la Licenciatura en Gestión e Innovación Educativa",
             "institucion": "UPSO",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "4 cuatrimestres",
             "localidad": "Médanos",
@@ -2542,7 +2542,7 @@ const propuestas = [
       {
             "titulo": "Diplomatura Universitaria Especializada en Gestión Educativa",
             "institucion": "UPSO",
-            "area": "CIENCIAS HUMANAS Y SOCIALES",
+            "area": "Ciencias Humanas y Sociales",
             "modalidad": "Presencial",
             "duracion": "2 cuatrimestres",
             "localidad": "Médanos",
@@ -2552,7 +2552,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Emprendimientos Audiovisuales",
             "institucion": "UPSO",
-            "area": "ARTES",
+            "area": "Artes",
             "modalidad": "Presencial",
             "duracion": "5 cuatrimestres",
             "localidad": "Monte Hermoso",
@@ -2562,7 +2562,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Creación y Gestión de Pequeñas y Medianas Empresas",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "6 cuatrimestres",
             "localidad": "Pellegrini",
@@ -2572,7 +2572,7 @@ const propuestas = [
       {
             "titulo": "Diplomatura Universitaria en Operaciones Logísticas",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "2 cuatrimestres",
             "localidad": "Pigüé",
@@ -2582,7 +2582,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Diseño Industrial",
             "institucion": "UPSO",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "9 cuatrimestres",
             "localidad": "Punta Alta",
@@ -2592,7 +2592,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Emprendimientos del Diseño",
             "institucion": "UPSO",
-            "area": "ARQUITECTURA Y DISEÑO",
+            "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
             "duracion": "5 cuatrimestres",
             "localidad": "Punta Alta",
@@ -2602,7 +2602,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Gestión del Comercio Exterior y Régimen Aduanero",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Punta Alta",
@@ -2612,7 +2612,7 @@ const propuestas = [
       {
             "titulo": "Martillero y Corredor Público",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Virtual",
             "duracion": "6 cuatrimestres",
             "localidad": "Salliqueló",
@@ -2622,7 +2622,7 @@ const propuestas = [
       {
             "titulo": "Licenciatura en Economía",
             "institucion": "UNS - Departamento de Economía",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "9 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2632,7 +2632,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Economía",
             "institucion": "UNS - Departamento de Economía",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2642,7 +2642,7 @@ const propuestas = [
       {
             "titulo": "Profesorado en Economía para la Enseñanza Secundaria",
             "institucion": "UNS - Departamento de Economía",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2652,7 +2652,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Marketing Digital y Comercio Electrónico",
             "institucion": "UPSO",
-            "area": "CIENCIAS ECONÓMICAS Y ADMINISTRACIÓN",
+            "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Tres Arroyos",
@@ -2662,7 +2662,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Universitaria en Tecnologías Web y Aplicaciones Interactivas",
             "institucion": "UPSO",
-            "area": "SISTEMAS E INFORMÁTICA",
+            "area": "Sistemas e Informática",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Tres Lomas",
@@ -2672,7 +2672,7 @@ const propuestas = [
       {
             "titulo": "Formación Profesiona Cuidado de Personas Adultas Mayores",
             "institucion": "UPSO",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "2 cuatrimestres",
             "localidad": "Saldungaray",
@@ -2682,7 +2682,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Radiología",
             "institucion": "ISEME",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2692,7 +2692,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Instrumentación Quirúrgica",
             "institucion": "ISEME",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2702,7 +2702,7 @@ const propuestas = [
       {
             "titulo": "Técnico en Anestesiología",
             "institucion": "ISEME",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "3 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2712,7 +2712,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Protésico Dental de Laboratorio",
             "institucion": "ISEME",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2722,7 +2722,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Escena del Crimen",
             "institucion": "ISEME",
-            "area": "SEGURIDAD PÚBLICA",
+            "area": "Seguridad Pública",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2732,7 +2732,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior Tecnologia en Salud con Especialidad en Hemoterapia",
             "institucion": "ISEME",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2742,7 +2742,7 @@ const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Tecnologia en Salud con Especialidad en Cardiologia",
             "institucion": "ISEME",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2752,7 +2752,7 @@ const propuestas = [
       {
             "titulo": "Esterilizacion",
             "institucion": "ISEME",
-            "area": "CIENCIAS DE LA SALUD",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2762,7 +2762,7 @@ const propuestas = [
       {
             "titulo": "Carreas A Distancia - Universidad Fasta",
             "institucion": "ISEME",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Virtual",
             "duracion": "Otra",
             "localidad": "Bahía Blanca",
@@ -2772,7 +2772,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Civil",
             "institucion": "UNS - Departamento de Ingeniería",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2782,7 +2782,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Industrial",
             "institucion": "UNS - Departamento de Ingeniería",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2792,7 +2792,7 @@ const propuestas = [
       {
             "titulo": "Ingeniería Mecánica",
             "institucion": "UNS - Departamento de Ingeniería",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
@@ -2802,7 +2802,7 @@ const propuestas = [
       {
             "titulo": "Agrimensura",
             "institucion": "UNS - Departamento de Ingeniería",
-            "area": "TECNOLÓGICAS",
+            "area": "Tecnológicas",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",

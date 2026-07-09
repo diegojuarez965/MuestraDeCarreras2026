@@ -8,9 +8,9 @@
 
 
   <link rel="stylesheet" href="css/estilo-muestra.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=PT+Serif&family=Rubik:wght@400;600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
+
 
   <title>Muestra de Carreras</title>
 </head>
@@ -151,6 +151,7 @@
           <div class="resultados" id="resultados" style="display:none;">
             <p class="resultados-header" id="resultados-header"></p>
             <div class="resultados-grid" id="resultados-grid"></div>
+            <div class="paginacion" id="paginacion"></div>
           </div>
 
         </div>
@@ -210,6 +211,10 @@
   <script src="js/propuestas.js"></script>
 
   <script>
+    const CANT_POR_PAGINA = 5;
+    let resultadosFiltrados = [];
+    let paginaActual = 1;
+
     function buscar() {
       const institucion = document.getElementById('institucion').value;
       const area = document.getElementById('area').value;
@@ -218,7 +223,7 @@
       const localidad = document.getElementById('localidad').value;
       const arancelada = document.getElementById('arancelada').value;
 
-      const resultados = propuestas.filter(p => {
+      resultadosFiltrados = propuestas.filter(p => {
         return (
           (!institucion || p.institucion === institucion) &&
           (!area || p.area === area) &&
@@ -229,8 +234,33 @@
         );
       });
 
-      mostrarResultados(resultados);
+      paginaActual = 1;
+      crearBotonesPaginas(resultadosFiltrados);
+      mostrarResultados(1);
       /*limpiarCampos(); */
+    }
+
+    function crearBotonesPaginas(resultados) {
+      const paginacionDiv = document.getElementById('paginacion');
+      if (!paginacionDiv) return;
+      paginacionDiv.innerHTML = '';
+
+      const cantResultados = resultados.length;
+      const cantPaginas = Math.ceil(cantResultados / CANT_POR_PAGINA);
+
+      if (cantPaginas <= 1) {
+        return;
+      }
+
+      for (let i = 1; i <= cantPaginas; i++) {
+        const boton = document.createElement('button');
+        boton.textContent = i;
+        boton.className = 'btn-pagina' + (i === 1 ? ' activo' : '');
+        boton.addEventListener('click', () => {
+          mostrarResultados(i);
+        });
+        paginacionDiv.appendChild(boton);
+      }
     }
 
     function limpiarCampos() {
@@ -242,7 +272,8 @@
       document.getElementById('arancelada').value = '';
     }
 
-    function mostrarResultados(resultados) {
+    function mostrarResultados(pagina) {
+      paginaActual = pagina;
       const seccion = document.getElementById('resultados');
       const header = document.getElementById('resultados-header');
       const grid = document.getElementById('resultados-grid');
@@ -250,18 +281,21 @@
       seccion.style.display = 'block';
       grid.innerHTML = '';
 
-      if (resultados.length === 0) {
+      if (resultadosFiltrados.length === 0) {
         header.textContent = '';
         grid.innerHTML = `
               <div class="sin-resultados">
                 No se encontraron propuestas con los filtros seleccionados.
               </div>`;
+        const paginacionDiv = document.getElementById('paginacion');
+        if (paginacionDiv) paginacionDiv.innerHTML = '';
         return;
       }
 
-      header.textContent = `${resultados.length} propuesta${resultados.length > 1 ? 's' : ''} encontrada${resultados.length > 1 ? 's' : ''}`;
+      header.textContent = `${resultadosFiltrados.length} propuesta${resultadosFiltrados.length > 1 ? 's' : ''} encontrada${resultadosFiltrados.length > 1 ? 's' : ''}`;
 
-      resultados.forEach(p => {
+      const resultadosPagina = resultadosFiltrados.slice((pagina - 1) * CANT_POR_PAGINA, pagina * CANT_POR_PAGINA);
+      resultadosPagina.forEach(p => {
         const card = document.createElement('div');
         card.className = 'propuesta-card';
         card.innerHTML = `
@@ -281,6 +315,15 @@
         grid.appendChild(card);
       });
 
+      const botones = document.querySelectorAll('#paginacion .btn-pagina');
+      botones.forEach((btn, idx) => {
+        if (idx === pagina - 1) {
+          btn.classList.add('activo');
+        } else {
+          btn.classList.remove('activo');
+        }
+      });
+
       seccion.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
@@ -288,7 +331,7 @@
       const poblarSelect = (id, propiedad) => {
         const select = document.getElementById(id);
         if (!select) return;
-        
+
         const valores = [...new Set(propuestas.map(p => p[propiedad]))]
           .filter(v => v);
 

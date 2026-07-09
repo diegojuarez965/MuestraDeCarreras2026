@@ -160,16 +160,6 @@ const propuestas = [
             "url": "https://linktr.ee/InfoDIQ"
       },
       {
-            "titulo": "Ingeniería en Alimentos",
-            "institucion": "UNS - Departamento de Ingeniería Química",
-            "area": "TECNOLÓGICAS",
-            "modalidad": "Presencial",
-            "duracion": "10 cuatrimestres",
-            "localidad": "Bahía Blanca",
-            "arancelada": "No",
-            "url": "http://www.diq.uns.edu.ar/WebIQ/grado/menu-ofertacad-grado-ia.htm"
-      },
-      {
             "titulo": "Tecnicatura Universitaria en Operaciones Industriales",
             "institucion": "UNS - Departamento de Ingeniería Química",
             "area": "TECNOLÓGICAS",
@@ -178,16 +168,6 @@ const propuestas = [
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "http://www.diq.uns.edu.ar/WebIQ/grado/menu-ofertacad-grado-tuoi.htm"
-      },
-      {
-            "titulo": "Tecnicatura Universitaria en Petróleo y Gas",
-            "institucion": "UNS - Departamento de Ingeniería Química",
-            "area": "TECNOLÓGICAS",
-            "modalidad": "Presencial",
-            "duracion": "6 cuatrimestres",
-            "localidad": "Bahía Blanca",
-            "arancelada": "No",
-            "url": "http://www.diq.uns.edu.ar/WebIQ/grado/menu-ofertacad-grado-tupg.htm"
       },
       {
             "titulo": "Tecnicatura Universitaria en Emprendimientos Agroalimentarios",
@@ -1057,7 +1037,7 @@ const propuestas = [
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://: https://www.juan23.edu.ar/carreras/tecnicatura-superior-en-automatizacion-y-control/"
+            "url": "https://www.juan23.edu.ar/carreras/tecnicatura-superior-en-automatizacion-y-control/"
       },
       {
             "titulo": "Tecnicatura Superior en Administración Financiera",
@@ -1067,7 +1047,7 @@ const propuestas = [
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "Sí",
-            "url": "https://: https://www.juan23.edu.ar/carreras/tecnicatura-superior-en-administracion-financiera/"
+            "url": "https://www.juan23.edu.ar/carreras/tecnicatura-superior-en-administracion-financiera/"
       },
       {
             "titulo": "Tecnicatura Superior en Análisis de Sistemas",
@@ -1077,7 +1057,7 @@ const propuestas = [
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "Sí",
-            "url": "https://: https://www.juan23.edu.ar/carreras/tecnicatura-superior-en-analisis-de-sistemas/"
+            "url": "https://www.juan23.edu.ar/carreras/tecnicatura-superior-en-analisis-de-sistemas/"
       },
       {
             "titulo": "Tecnicatura Superior en Marketing",
@@ -1097,7 +1077,7 @@ const propuestas = [
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://: https://www.juan23.edu.ar/carreras/tecnicatura-en-gestion-ambiental-y-salud/"
+            "url": "https://www.juan23.edu.ar/carreras/tecnicatura-en-gestion-ambiental-y-salud/"
       },
       {
             "titulo": "Tecnicatura en Dirección de Equipos de Venta",
@@ -1667,7 +1647,7 @@ const propuestas = [
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://isfd3-bue.infd.edu.a"
+            "url": "https://isfd3-bue.infd.edu.ar"
       },
       {
             "titulo": "Profesorado de Educación Primaria",
@@ -1677,7 +1657,7 @@ const propuestas = [
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://isfd3-bue.infd.edu.a"
+            "url": "https://isfd3-bue.infd.edu.ar"
       },
       {
             "titulo": "Profesorado de Educación Especial",
@@ -2107,7 +2087,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Industria Alimentaria",
@@ -2117,7 +2097,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Salud",
@@ -2127,7 +2107,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Administración y Comercialización",
@@ -2137,7 +2117,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Tecnologia",
@@ -2147,7 +2127,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Actividad Agropecuaria",
@@ -2157,7 +2137,7 @@ const propuestas = [
             "duracion": "2 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Energia Electrica",
@@ -2167,7 +2147,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Comunicacion Social",
@@ -2177,7 +2157,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Madera y Muebles",
@@ -2187,7 +2167,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Construcciones",
@@ -2197,7 +2177,7 @@ const propuestas = [
             "duracion": "2 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Metalmecanica",
@@ -2207,7 +2187,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Estetica Profesional",
@@ -2217,7 +2197,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Textil e Indumentaria",
@@ -2227,7 +2207,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Industria Grafica",
@@ -2237,7 +2217,7 @@ const propuestas = [
             "duracion": "1 cuatrimestre",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cfp402_bblanca"
+            "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
       },
       {
             "titulo": "Diplomatura Universitaria en Gestión Administrativa",

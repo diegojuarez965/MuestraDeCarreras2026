@@ -167,7 +167,7 @@ const propuestas = [
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "http://www.diq.uns.edu.ar/WebIQ/grado/menu-ofertacad-grado-tuoi.htm"
+            "url": "https://linktr.ee/InfoDIQ"
       },
       {
             "titulo": "Tecnicatura Universitaria en Emprendimientos Agroalimentarios",
@@ -1844,7 +1844,7 @@ const propuestas = [
             "institucion": "Escuela de Teatro",
             "area": "Artes",
             "modalidad": "Presencial",
-            "duracion": "10 cuatrimestres",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://etbblanca-bue.infd.edu.ar/sitio/"
@@ -1854,7 +1854,7 @@ const propuestas = [
             "institucion": "Escuela de Teatro",
             "area": "Artes",
             "modalidad": "Presencial",
-            "duracion": "8 cuatrimestres",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://etbblanca-bue.infd.edu.ar/sitio/"
@@ -1864,7 +1864,7 @@ const propuestas = [
             "institucion": "Escuela de Teatro",
             "area": "Artes",
             "modalidad": "Presencial",
-            "duracion": "8 cuatrimestres",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://etbblanca-bue.infd.edu.ar/sitio/"
@@ -1874,7 +1874,7 @@ const propuestas = [
             "institucion": "Escuela de Teatro",
             "area": "Artes",
             "modalidad": "Presencial",
-            "duracion": "8 cuatrimestres",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://etbblanca-bue.infd.edu.ar/sitio/"
@@ -1884,7 +1884,7 @@ const propuestas = [
             "institucion": "Escuela de Teatro",
             "area": "Artes",
             "modalidad": "Presencial",
-            "duracion": "6 cuatrimestres",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://etbblanca-bue.infd.edu.ar/sitio/"
@@ -1894,7 +1894,7 @@ const propuestas = [
             "institucion": "Escuela de Teatro",
             "area": "Artes",
             "modalidad": "Presencial",
-            "duracion": "6 cuatrimestres",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://etbblanca-bue.infd.edu.ar/sitio/"
@@ -1904,7 +1904,7 @@ const propuestas = [
             "institucion": "Escuela de Teatro",
             "area": "Artes",
             "modalidad": "Presencial",
-            "duracion": "6 cuatrimestres",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://etbblanca-bue.infd.edu.ar/sitio/"
@@ -2084,7 +2084,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Ciencias Naturales",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2094,7 +2094,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Ciencias Naturales",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2104,7 +2104,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2114,7 +2114,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Ciencias Económicas y Administración",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2124,7 +2124,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Tecnológicas",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2144,7 +2144,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Ciencias Ambientales",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2194,7 +2194,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Ciencias Naturales",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2214,7 +2214,7 @@ const propuestas = [
             "institucion": "CFP 402",
             "area": "Arquitectura y Diseño",
             "modalidad": "Presencial",
-            "duracion": "1 cuatrimestre",
+            "duracion": "Otra",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://www.facebook.com/p/CFP-402-Bah%C3%ADa-Blanca-100064333675557/?locale=es_LA"
@@ -2670,7 +2670,7 @@ const propuestas = [
             "url": "https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-web-y-aplicaciones-interactivas/"
       },
       {
-            "titulo": "Formación Profesiona Cuidado de Personas Adultas Mayores",
+            "titulo": "Formación Profesional: Cuidado de Personas Adultas Mayores",
             "institucion": "UPSO",
             "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
@@ -2760,7 +2760,7 @@ const propuestas = [
             "url": "http://www.iseme.edu.ar/oferta-academica/"
       },
       {
-            "titulo": "Carreas A Distancia - Universidad Fasta",
+            "titulo": "Carreras a Distancia - Universidad Fasta",
             "institucion": "ISEME",
             "area": "Tecnológicas",
             "modalidad": "Virtual",

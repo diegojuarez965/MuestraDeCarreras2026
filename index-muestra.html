@@ -233,7 +233,7 @@
           (!arancelada || p.arancelada === arancelada)
         );
       });
-
+      resultadosFiltrados = resultadosFiltrados.sort((a, b) => a.titulo.localeCompare(b.titulo));
       paginaActual = 1;
       crearBotonesPaginas(resultadosFiltrados);
       mostrarResultados(1);
@@ -348,7 +348,6 @@
           };
           valores.sort((a, b) => obtenerPeso(a) - obtenerPeso(b));
         } else if (propiedad === 'arancelada') {
-          // Mantener No antes de Sí
           valores.sort((a, b) => b.localeCompare(a, 'es', { sensitivity: 'base' }));
         } else {
           valores.sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));

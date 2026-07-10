@@ -235,7 +235,6 @@
       });
       resultadosFiltrados = resultadosFiltrados.sort((a, b) => a.titulo.localeCompare(b.titulo));
       paginaActual = 1;
-      crearBotonesPaginas(resultadosFiltrados);
       mostrarResultados(1);
       /*limpiarCampos(); */
     }
@@ -252,15 +251,75 @@
         return;
       }
 
-      for (let i = 1; i <= cantPaginas; i++) {
+      // Botón Primero
+      const btnPrimero = document.createElement('button');
+      btnPrimero.innerHTML = '&laquo;';
+      btnPrimero.className = 'btn-pagina';
+      if (paginaActual === 1) {
+        btnPrimero.disabled = true;
+      } else {
+        btnPrimero.addEventListener('click', () => {
+          mostrarResultados(1);
+        });
+      }
+      paginacionDiv.appendChild(btnPrimero);
+
+      // Botón Anterior
+      const btnAnterior = document.createElement('button');
+      btnAnterior.innerHTML = '&lt;';
+      btnAnterior.className = 'btn-pagina';
+      if (paginaActual === 1) {
+        btnAnterior.disabled = true;
+      } else {
+        btnAnterior.addEventListener('click', () => {
+          mostrarResultados(paginaActual - 1);
+        });
+      }
+      paginacionDiv.appendChild(btnAnterior);
+
+      // Calcular rango de 3 botones
+      let startPage = Math.max(1, paginaActual - 1);
+      let endPage = startPage + 2;
+      if (endPage > cantPaginas) {
+        endPage = cantPaginas;
+        startPage = Math.max(1, endPage - 2);
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
         const boton = document.createElement('button');
         boton.textContent = i;
-        boton.className = 'btn-pagina' + (i === 1 ? ' activo' : '');
+        boton.className = 'btn-pagina' + (i === paginaActual ? ' activo' : '');
         boton.addEventListener('click', () => {
           mostrarResultados(i);
         });
         paginacionDiv.appendChild(boton);
       }
+
+      // Botón Siguiente
+      const btnSiguiente = document.createElement('button');
+      btnSiguiente.innerHTML = '&gt;';
+      btnSiguiente.className = 'btn-pagina';
+      if (paginaActual === cantPaginas) {
+        btnSiguiente.disabled = true;
+      } else {
+        btnSiguiente.addEventListener('click', () => {
+          mostrarResultados(paginaActual + 1);
+        });
+      }
+      paginacionDiv.appendChild(btnSiguiente);
+
+      // Botón Último
+      const btnUltimo = document.createElement('button');
+      btnUltimo.innerHTML = '&raquo;';
+      btnUltimo.className = 'btn-pagina';
+      if (paginaActual === cantPaginas) {
+        btnUltimo.disabled = true;
+      } else {
+        btnUltimo.addEventListener('click', () => {
+          mostrarResultados(cantPaginas);
+        });
+      }
+      paginacionDiv.appendChild(btnUltimo);
     }
 
     function limpiarCampos() {
@@ -315,14 +374,7 @@
         grid.appendChild(card);
       });
 
-      const botones = document.querySelectorAll('#paginacion .btn-pagina');
-      botones.forEach((btn, idx) => {
-        if (idx === pagina - 1) {
-          btn.classList.add('activo');
-        } else {
-          btn.classList.remove('activo');
-        }
-      });
+      crearBotonesPaginas(resultadosFiltrados);
 
       seccion.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }

@@ -439,6 +439,15 @@ body {
   pointer-events: none;
 }
 
+.btn-pagina:disabled {
+  border-color: #ccc;
+  color: #ccc;
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: #f5f5f5;
+  box-shadow: none;
+}
+
 .btn-pagina:active {
   transform: scale(0.95);
 }
@@ -585,6 +594,17 @@ body {
 
   .buscar .campo select {
     width: 100%;
+  }
+
+  .paginacion {
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
+
+  .btn-pagina {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
   }
 
 }

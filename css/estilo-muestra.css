@@ -11,7 +11,7 @@
 
 body {
   background-color: #fff7f0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   overflow-x: hidden;
 }
 
@@ -61,7 +61,7 @@ body {
   text-decoration: none;
 }
 
-.menu-enlace>a {
+.menu-enlace > a {
   display: block;
   text-decoration: none;
   font-size: 18px;
@@ -70,7 +70,7 @@ body {
   color: #1976ff;
 }
 
-.logos>img {
+.logos > img {
   width: 100%;
 }
 
@@ -100,7 +100,7 @@ body {
   margin-bottom: 10%;
 }
 
-.muestra-imagen>img {
+.muestra-imagen > img {
   width: 100%;
 }
 
@@ -116,15 +116,14 @@ body {
   aspect-ratio: 16 / 9;
 }
 
-.video>iframe {
+.video > iframe {
   margin: auto;
   width: 100%;
   height: 100%;
   display: block;
-
 }
 
-.videos>img {
+.videos > img {
   margin: auto;
   width: 100%;
   display: block;
@@ -144,7 +143,7 @@ body {
   margin: auto;
 }
 
-.div-img>img {
+.div-img > img {
   width: 100%;
 }
 
@@ -155,12 +154,12 @@ body {
   margin-bottom: 12%;
 }
 
-.cronograma>div {
+.cronograma > div {
   width: 80%;
   margin-left: 6%;
 }
 
-.cronograma>div>img {
+.cronograma > div > img {
   width: 100%;
 }
 
@@ -268,7 +267,9 @@ body {
   background-repeat: no-repeat;
   background-position: right 16px center;
   outline: none;
-  transition: background-color 0.2s, box-shadow 0.2s;
+  transition:
+    background-color 0.2s,
+    box-shadow 0.2s;
 }
 
 .buscar .campo select:focus {
@@ -289,7 +290,9 @@ body {
   font-size: 1.4rem;
   cursor: pointer;
   padding: 0;
-  transition: color 0.2s, transform 0.1s;
+  transition:
+    color 0.2s,
+    transform 0.1s;
 }
 
 .buscar .btn-buscar:hover {
@@ -330,7 +333,9 @@ body {
   padding: 18px 22px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
   border-left: 5px solid #2e7bf4;
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
 }
 
 .buscar .propuesta-card:hover {
@@ -361,10 +366,17 @@ body {
 .buscar .tag {
   background-color: #e8e3da;
   border-radius: 20px;
-  padding: 3px 12px;
+  border: none;
+  padding: 5px 12px;
   font-size: 0.78rem;
   color: #555;
   font-weight: 500;
+}
+
+.buscar .tag:hover {
+  cursor: pointer;
+  color: #2e7bf4;
+  border: 1px solid #2e7bf4;
 }
 
 .buscar .btn-conocer-mas {
@@ -410,7 +422,7 @@ body {
   background-color: #fff;
   border: 1.5px solid #2e7bf4;
   color: #2e7bf4;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   width: 38px;
@@ -453,7 +465,6 @@ body {
 }
 
 @media (max-width: 800px) {
-
   .menu-enlace {
     display: block;
   }
@@ -482,7 +493,6 @@ body {
     border-bottom-style: solid;
     border-color: grey;
     border-width: 0.5px;
-
   }
 
   .desaparece {
@@ -493,8 +503,7 @@ body {
     display: none;
   }
 
-
-  .muestra-texto>p {
+  .muestra-texto > p {
     font-size: 10px;
   }
 
@@ -517,7 +526,6 @@ body {
     padding: 1%;
   }
 
-
   .cartelera {
     margin-top: 10%;
     margin-bottom: -6%;
@@ -531,7 +539,7 @@ body {
     margin-top: 8%;
   }
 
-  .cronograma>div {
+  .cronograma > div {
     width: 88%;
     margin: auto;
   }
@@ -563,9 +571,8 @@ body {
 
   .pie-texto p {
     text-align: center;
-    font-size: 0.70rem;
+    font-size: 0.7rem;
   }
-
 
   .part-1 img {
     height: 28px;
@@ -606,5 +613,4 @@ body {
     height: 32px;
     font-size: 0.85rem;
   }
-
 }

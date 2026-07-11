@@ -1,430 +1,469 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-muestra.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <title>Muestra de Carreras</title>
+  </head>
 
-  <link rel="stylesheet" href="css/estilo-muestra.css">
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-
-
-  <title>Muestra de Carreras</title>
-</head>
-
-<body>
-
-  <section class="contenido">
-
-    <section class="navegador">
-
-      <div class="nav-logos">
-        <div class="logos">
-          <img src="img/logos.png" alt="">
-        </div>
-      </div>
-
-
-      <div class="nav-menu">
-        <div class="menu">
-          <a class="menu-responsive" onclick="accion()" title="Menú" aria-label="Abrir menú">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"
-              stroke-linecap="round">
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-          </a>
-          <ul class="menu-horizontal">
-            <li class="menu-enlace desaparece"> <a href="#">INICIO<b class="separador"> I</b></a></li>
-            <li class="menu-enlace desaparece"> <a href="#">ACTIVIDADES<b class="separador"> I</b></a>
-            </li>
-            <li class="menu-enlace desaparece"> <a href="#">DOE<b class="separador"> I</b></a></li>
-            <li class="menu-enlace desaparece"> <a href="#">CONTACTO<b></b></a></li>
-          </ul>
-
-        </div>
-      </div>
-
-    </section>
-
-
-
-    <section class="presentacion">
-      <div class="muestra-imagen">
-
-        <img src="img/muestra.png" alt="">
-
-      </div>
-
-    </section>
-
-
-
-    <section class="video">
-      <div class="videos">
-        <img src="img/portada-video.png" alt="">
-      </div>
-    </section>
-
-
-    <section class="video" style="display: none;">
-      <div class="videos">
-        <iframe style="width: 100%;height: 100%;display: block;" src="https://www.youtube.com/embed/NGzN_Vo0LJQ"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-    </section>
-
-
-    <section class="buscador">
-
-      <div class="cartelera">
-
-        <div class="div-img">
-
-          <img src="img/cartelera.png" alt="">
-
+  <body>
+    <section class="contenido">
+      <section class="navegador">
+        <div class="nav-logos">
+          <div class="logos">
+            <img src="img/logos.png" alt="" />
+          </div>
         </div>
 
-      </div>
-
-      <div class="buscar">
-
-        <div class="card">
-
-          <div class="campo">
-            <label for="institucion">Institución</label>
-            <select id="institucion">
-              <option value="">Cualquiera...</option>
-            </select>
+        <div class="nav-menu">
+          <div class="menu">
+            <a
+              class="menu-responsive"
+              onclick="accion()"
+              title="Menú"
+              aria-label="Abrir menú"
+            >
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.3"
+                stroke-linecap="round"
+              >
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </a>
+            <ul class="menu-horizontal">
+              <li class="menu-enlace desaparece">
+                <a href="#">INICIO<b class="separador"> I</b></a>
+              </li>
+              <li class="menu-enlace desaparece">
+                <a href="#">ACTIVIDADES<b class="separador"> I</b></a>
+              </li>
+              <li class="menu-enlace desaparece">
+                <a href="#">DOE<b class="separador"> I</b></a>
+              </li>
+              <li class="menu-enlace desaparece">
+                <a href="#">CONTACTO<b></b></a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </section>
 
-          <div class="campo">
-            <label for="area">Área disciplinar</label>
-            <select id="area">
-              <option value="">Cualquiera...</option>
-            </select>
+      <section class="presentacion">
+        <div class="muestra-imagen">
+          <img src="img/muestra.png" alt="" />
+        </div>
+      </section>
+
+      <section class="video">
+        <div class="videos">
+          <img src="img/portada-video.png" alt="" />
+        </div>
+      </section>
+
+      <section class="video" style="display: none">
+        <div class="videos">
+          <iframe
+            style="width: 100%; height: 100%; display: block"
+            src="https://www.youtube.com/embed/NGzN_Vo0LJQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="buscador">
+        <div class="cartelera">
+          <div class="div-img">
+            <img src="img/cartelera.png" alt="" />
           </div>
-
-          <div class="campo">
-            <label for="modalidad">Modalidad de Dictado</label>
-            <select id="modalidad">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="duracion">Duración</label>
-            <select id="duracion">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="localidad">Localidad de Dictado</label>
-            <select id="localidad">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="arancelada">¿Es arancelada?</label>
-            <select id="arancelada">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <button class="btn-buscar" onclick="buscar()">
-            Buscar
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="7"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-          </button>
-
-          <div class="resultados" id="resultados" style="display:none;">
-            <p class="resultados-header" id="resultados-header"></p>
-            <div class="resultados-grid" id="resultados-grid"></div>
-            <div class="paginacion" id="paginacion"></div>
-          </div>
-
         </div>
 
-      </div>
+        <div class="buscar">
+          <div class="card">
+            <div class="campo">
+              <label for="institucion">Institución</label>
+              <select id="institucion">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
 
+            <div class="campo">
+              <label for="area">Área disciplinar</label>
+              <select id="area">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="modalidad">Modalidad de Dictado</label>
+              <select id="modalidad">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="duracion">Duración</label>
+              <select id="duracion">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="localidad">Localidad de Dictado</label>
+              <select id="localidad">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="arancelada">¿Es arancelada?</label>
+              <select id="arancelada">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <button class="btn-buscar" onclick="buscar()">
+              Buscar
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="11" cy="11" r="7"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+
+            <div class="resultados" id="resultados" style="display: none">
+              <p class="resultados-header" id="resultados-header"></p>
+              <div class="resultados-grid" id="resultados-grid"></div>
+              <div class="paginacion" id="paginacion"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cronograma">
+        <div>
+          <img src="img/cronograma.png" alt="" />
+        </div>
+      </section>
     </section>
 
-    <section class="cronograma">
+    <section class="pie">
+      <div class="pie-contenedor">
+        <div class="part-1">
+          <img
+            src="img/logo70.png"
+            alt="70 años Universidad Nacional del Sur"
+          />
+        </div>
 
-      <div>
-        <img src="img/cronograma.png" alt="">
+        <div class="pie-derecha">
+          <div class="part-2">
+            <div>
+              <a href="#" target="_blank" title="twitter Muestra de Carreras"
+                ><img src="img/img5.jpeg" alt="Twitter"
+              /></a>
+            </div>
+            <div>
+              <a href="#" target="_blank" title="facebook Muestra de Carreras"
+                ><img src="img/img7.jpeg" alt="Facebook"
+              /></a>
+            </div>
+            <div>
+              <a href="#" target="_blank" title="Muestra de Carreras"
+                ><img src="img/img6.jpeg" alt="YouTube"
+              /></a>
+            </div>
+            <div>
+              <a href="#" target="_blank" title="instagram Muestra de Carreras"
+                ><img src="img/img3.jpeg" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+
+          <div class="pie-texto">
+            <p>
+              &copy; 2026 MUESTRA2026 | UNIVERSIDAD NACIONAL DEL SUR<br />muestracarreras@uns.edu.ar
+            </p>
+          </div>
+        </div>
       </div>
-
     </section>
 
-
-
-  </section>
-
-  <section class="pie">
-    <div class="pie-contenedor">
-
-      <div class="part-1">
-        <img src="img/logo70.png" alt="70 años Universidad Nacional del Sur">
-      </div>
-
-      <div class="pie-derecha">
-        <div class="part-2">
-          <div><a href="#" target="_blank" title="twitter Muestra de Carreras"><img src="img/img5.jpeg"
-                alt="Twitter"></a></div>
-          <div><a href="#" target="_blank" title="facebook Muestra de Carreras"><img src="img/img7.jpeg"
-                alt="Facebook"></a></div>
-          <div><a href="#" target="_blank" title="Muestra de Carreras"><img src="img/img6.jpeg" alt="YouTube"></a></div>
-          <div><a href="#" target="_blank" title="instagram Muestra de Carreras"><img src="img/img3.jpeg"
-                alt="Instagram"></a></div>
-        </div>
-
-        <div class="pie-texto">
-          <p>&copy; 2026 MUESTRA2026 | UNIVERSIDAD NACIONAL DEL SUR<br>muestracarreras@uns.edu.ar</p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <script>
-    function accion() {
-      var enlace = document.getElementsByClassName('menu-enlace');
-      for (var i = 0; i < enlace.length; i++) {
-        enlace[i].classList.toggle('desaparece');
+    <script>
+      function accion() {
+        var enlace = document.getElementsByClassName("menu-enlace");
+        for (var i = 0; i < enlace.length; i++) {
+          enlace[i].classList.toggle("desaparece");
+        }
       }
-    }
-  </script>
+    </script>
 
-  <script src="js/propuestas.js"></script>
+    <script src="js/propuestas.js"></script>
 
-  <script>
-    const CANT_POR_PAGINA = 5;
-    let resultadosFiltrados = [];
-    let paginaActual = 1;
+    <script>
+      const CANT_POR_PAGINA = 5;
+      let resultadosFiltrados = [];
+      let paginaActual = 1;
 
-    function buscar() {
-      const institucion = document.getElementById('institucion').value;
-      const area = document.getElementById('area').value;
-      const modalidad = document.getElementById('modalidad').value;
-      const duracion = document.getElementById('duracion').value;
-      const localidad = document.getElementById('localidad').value;
-      const arancelada = document.getElementById('arancelada').value;
+      function buscar() {
+        const institucion = document.getElementById("institucion").value;
+        const area = document.getElementById("area").value;
+        const modalidad = document.getElementById("modalidad").value;
+        const duracion = document.getElementById("duracion").value;
+        const localidad = document.getElementById("localidad").value;
+        const arancelada = document.getElementById("arancelada").value;
 
-      resultadosFiltrados = propuestas.filter(p => {
-        return (
-          (!institucion || p.institucion === institucion) &&
-          (!area || p.area === area) &&
-          (!modalidad || p.modalidad === modalidad) &&
-          (!duracion || p.duracion === duracion) &&
-          (!localidad || p.localidad === localidad) &&
-          (!arancelada || p.arancelada === arancelada)
+        resultadosFiltrados = propuestas.filter((p) => {
+          return (
+            (!institucion || p.institucion === institucion) &&
+            (!area || p.area === area) &&
+            (!modalidad || p.modalidad === modalidad) &&
+            (!duracion || p.duracion === duracion) &&
+            (!localidad || p.localidad === localidad) &&
+            (!arancelada || p.arancelada === arancelada)
+          );
+        });
+        resultadosFiltrados = resultadosFiltrados.sort((a, b) =>
+          a.titulo.localeCompare(b.titulo),
         );
-      });
-      resultadosFiltrados = resultadosFiltrados.sort((a, b) => a.titulo.localeCompare(b.titulo));
-      paginaActual = 1;
-      mostrarResultados(1);
-      /*limpiarCampos(); */
-    }
-
-    function crearBotonesPaginas(resultados) {
-      const paginacionDiv = document.getElementById('paginacion');
-      if (!paginacionDiv) return;
-      paginacionDiv.innerHTML = '';
-
-      const cantResultados = resultados.length;
-      const cantPaginas = Math.ceil(cantResultados / CANT_POR_PAGINA);
-
-      if (cantPaginas <= 1) {
-        return;
+        paginaActual = 1;
+        mostrarResultados(1);
+        /*limpiarCampos(); */
       }
 
-      // Botón Primero
-      const btnPrimero = document.createElement('button');
-      btnPrimero.innerHTML = '&laquo;';
-      btnPrimero.className = 'btn-pagina';
-      if (paginaActual === 1) {
-        btnPrimero.disabled = true;
-      } else {
-        btnPrimero.addEventListener('click', () => {
-          mostrarResultados(1);
-        });
+      function crearBotonesPaginas(resultados) {
+        const paginacionDiv = document.getElementById("paginacion");
+        if (!paginacionDiv) return;
+        paginacionDiv.innerHTML = "";
+
+        const cantResultados = resultados.length;
+        const cantPaginas = Math.ceil(cantResultados / CANT_POR_PAGINA);
+
+        if (cantPaginas <= 1) {
+          return;
+        }
+
+        // Botón Primero
+        const btnPrimero = document.createElement("button");
+        btnPrimero.innerHTML = "&laquo;";
+        btnPrimero.className = "btn-pagina";
+        if (paginaActual === 1) {
+          btnPrimero.disabled = true;
+        } else {
+          btnPrimero.addEventListener("click", () => {
+            mostrarResultados(1);
+          });
+        }
+        paginacionDiv.appendChild(btnPrimero);
+
+        // Botón Anterior
+        const btnAnterior = document.createElement("button");
+        btnAnterior.innerHTML = "&lt;";
+        btnAnterior.className = "btn-pagina";
+        if (paginaActual === 1) {
+          btnAnterior.disabled = true;
+        } else {
+          btnAnterior.addEventListener("click", () => {
+            mostrarResultados(paginaActual - 1);
+          });
+        }
+        paginacionDiv.appendChild(btnAnterior);
+
+        // Calcular rango de 3 botones
+        let startPage = Math.max(1, paginaActual - 1);
+        let endPage = startPage + 2;
+        if (endPage > cantPaginas) {
+          endPage = cantPaginas;
+          startPage = Math.max(1, endPage - 2);
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+          const boton = document.createElement("button");
+          boton.textContent = i;
+          boton.className =
+            "btn-pagina" + (i === paginaActual ? " activo" : "");
+          boton.addEventListener("click", () => {
+            mostrarResultados(i);
+          });
+          paginacionDiv.appendChild(boton);
+        }
+
+        // Botón Siguiente
+        const btnSiguiente = document.createElement("button");
+        btnSiguiente.innerHTML = "&gt;";
+        btnSiguiente.className = "btn-pagina";
+        if (paginaActual === cantPaginas) {
+          btnSiguiente.disabled = true;
+        } else {
+          btnSiguiente.addEventListener("click", () => {
+            mostrarResultados(paginaActual + 1);
+          });
+        }
+        paginacionDiv.appendChild(btnSiguiente);
+
+        // Botón Último
+        const btnUltimo = document.createElement("button");
+        btnUltimo.innerHTML = "&raquo;";
+        btnUltimo.className = "btn-pagina";
+        if (paginaActual === cantPaginas) {
+          btnUltimo.disabled = true;
+        } else {
+          btnUltimo.addEventListener("click", () => {
+            mostrarResultados(cantPaginas);
+          });
+        }
+        paginacionDiv.appendChild(btnUltimo);
       }
-      paginacionDiv.appendChild(btnPrimero);
 
-      // Botón Anterior
-      const btnAnterior = document.createElement('button');
-      btnAnterior.innerHTML = '&lt;';
-      btnAnterior.className = 'btn-pagina';
-      if (paginaActual === 1) {
-        btnAnterior.disabled = true;
-      } else {
-        btnAnterior.addEventListener('click', () => {
-          mostrarResultados(paginaActual - 1);
-        });
-      }
-      paginacionDiv.appendChild(btnAnterior);
-
-      // Calcular rango de 3 botones
-      let startPage = Math.max(1, paginaActual - 1);
-      let endPage = startPage + 2;
-      if (endPage > cantPaginas) {
-        endPage = cantPaginas;
-        startPage = Math.max(1, endPage - 2);
+      function limpiarCampos() {
+        document.getElementById("institucion").value = "";
+        document.getElementById("area").value = "";
+        document.getElementById("modalidad").value = "";
+        document.getElementById("duracion").value = "";
+        document.getElementById("localidad").value = "";
+        document.getElementById("arancelada").value = "";
       }
 
-      for (let i = startPage; i <= endPage; i++) {
-        const boton = document.createElement('button');
-        boton.textContent = i;
-        boton.className = 'btn-pagina' + (i === paginaActual ? ' activo' : '');
-        boton.addEventListener('click', () => {
-          mostrarResultados(i);
-        });
-        paginacionDiv.appendChild(boton);
-      }
+      function mostrarResultados(pagina) {
+        paginaActual = pagina;
+        const seccion = document.getElementById("resultados");
+        const header = document.getElementById("resultados-header");
+        const grid = document.getElementById("resultados-grid");
 
-      // Botón Siguiente
-      const btnSiguiente = document.createElement('button');
-      btnSiguiente.innerHTML = '&gt;';
-      btnSiguiente.className = 'btn-pagina';
-      if (paginaActual === cantPaginas) {
-        btnSiguiente.disabled = true;
-      } else {
-        btnSiguiente.addEventListener('click', () => {
-          mostrarResultados(paginaActual + 1);
-        });
-      }
-      paginacionDiv.appendChild(btnSiguiente);
+        seccion.style.display = "block";
+        grid.innerHTML = "";
 
-      // Botón Último
-      const btnUltimo = document.createElement('button');
-      btnUltimo.innerHTML = '&raquo;';
-      btnUltimo.className = 'btn-pagina';
-      if (paginaActual === cantPaginas) {
-        btnUltimo.disabled = true;
-      } else {
-        btnUltimo.addEventListener('click', () => {
-          mostrarResultados(cantPaginas);
-        });
-      }
-      paginacionDiv.appendChild(btnUltimo);
-    }
-
-    function limpiarCampos() {
-      document.getElementById('institucion').value = '';
-      document.getElementById('area').value = '';
-      document.getElementById('modalidad').value = '';
-      document.getElementById('duracion').value = '';
-      document.getElementById('localidad').value = '';
-      document.getElementById('arancelada').value = '';
-    }
-
-    function mostrarResultados(pagina) {
-      paginaActual = pagina;
-      const seccion = document.getElementById('resultados');
-      const header = document.getElementById('resultados-header');
-      const grid = document.getElementById('resultados-grid');
-
-      seccion.style.display = 'block';
-      grid.innerHTML = '';
-
-      if (resultadosFiltrados.length === 0) {
-        header.textContent = '';
-        grid.innerHTML = `
+        if (resultadosFiltrados.length === 0) {
+          header.textContent = "";
+          grid.innerHTML = `
               <div class="sin-resultados">
                 No se encontraron propuestas con los filtros seleccionados.
               </div>`;
-        const paginacionDiv = document.getElementById('paginacion');
-        if (paginacionDiv) paginacionDiv.innerHTML = '';
-        return;
-      }
+          const paginacionDiv = document.getElementById("paginacion");
+          if (paginacionDiv) paginacionDiv.innerHTML = "";
+          return;
+        }
 
-      header.textContent = `${resultadosFiltrados.length} propuesta${resultadosFiltrados.length > 1 ? 's' : ''} encontrada${resultadosFiltrados.length > 1 ? 's' : ''}`;
+        header.textContent = `${resultadosFiltrados.length} propuesta${resultadosFiltrados.length > 1 ? "s" : ""} encontrada${resultadosFiltrados.length > 1 ? "s" : ""}`;
 
-      const resultadosPagina = resultadosFiltrados.slice((pagina - 1) * CANT_POR_PAGINA, pagina * CANT_POR_PAGINA);
-      resultadosPagina.forEach(p => {
-        const card = document.createElement('div');
-        card.className = 'propuesta-card';
-        card.innerHTML = `
+        const resultadosPagina = resultadosFiltrados.slice(
+          (pagina - 1) * CANT_POR_PAGINA,
+          pagina * CANT_POR_PAGINA,
+        );
+        resultadosPagina.forEach((p) => {
+          const card = document.createElement("div");
+          card.className = "propuesta-card";
+          card.innerHTML = `
               <h3>${p.titulo}</h3>
               <div class="institucion">${p.institucion}</div>
               <div class="tags">
-                <span class="tag"> ${p.area}</span>
-                <span class="tag"> ${p.modalidad}</span>
-                <span class="tag"> ${p.duracion}</span>
-                <span class="tag"> ${p.localidad}</span>
-                <span class="tag ${p.arancelada}">
-                  ${p.arancelada === 'No' ? ' Gratuita' : ' Arancelada'}
-                </span>
+                <button class="tag" onclick="filtrarPorTag('area', '${p.area}')"> ${p.area}</button>
+                <button class="tag" onclick="filtrarPorTag('modalidad', '${p.modalidad}')"> ${p.modalidad}</button>
+                <button class="tag" onclick="filtrarPorTag('duracion', '${p.duracion}')"> ${p.duracion}</button>
+                <button class="tag" onclick="filtrarPorTag('localidad', '${p.localidad}')"> ${p.localidad}</button>
+                <button class="tag ${p.arancelada}" onclick="filtrarPorTag('arancelada', '${p.arancelada}')">
+                  ${p.arancelada === "No" ? " Gratuita" : " Arancelada"}
+                </button>
               </div>
-              ${p.url ? `<a class="btn-conocer-mas" href="${p.url}" target="_blank" rel="noopener noreferrer">Conocer más</a>` : ''}
+              ${p.url ? `<a class="btn-conocer-mas" href="${p.url}" target="_blank" rel="noopener noreferrer">Conocer más</a>` : ""}
             `;
-        grid.appendChild(card);
-      });
-
-      crearBotonesPaginas(resultadosFiltrados);
-
-      seccion.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-
-    function inicializarFiltros() {
-      const poblarSelect = (id, propiedad) => {
-        const select = document.getElementById(id);
-        if (!select) return;
-
-        const valores = [...new Set(propuestas.map(p => p[propiedad]))]
-          .filter(v => v);
-
-        if (propiedad === 'duracion') {
-          const obtenerPeso = (str) => {
-            if (str === 'Otra') {
-              return 999;
-            }
-            if (str.includes('cuatrimestre')) {
-              const num = parseInt(str) || 0;
-              return num;
-            }
-            return 100;
-          };
-          valores.sort((a, b) => obtenerPeso(a) - obtenerPeso(b));
-        } else if (propiedad === 'arancelada') {
-          valores.sort((a, b) => b.localeCompare(a, 'es', { sensitivity: 'base' }));
-        } else {
-          valores.sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));
-        }
-
-        select.innerHTML = '<option value="">Cualquiera...</option>';
-        valores.forEach(v => {
-          const opt = document.createElement('option');
-          opt.value = v;
-          opt.textContent = v;
-          select.appendChild(opt);
+          grid.appendChild(card);
         });
-      };
 
-      poblarSelect('institucion', 'institucion');
-      poblarSelect('area', 'area');
-      poblarSelect('modalidad', 'modalidad');
-      poblarSelect('duracion', 'duracion');
-      poblarSelect('localidad', 'localidad');
-      poblarSelect('arancelada', 'arancelada');
-    }
+        crearBotonesPaginas(resultadosFiltrados);
 
-    inicializarFiltros();
-  </script>
+        seccion.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
 
-</body>
+      function filtrarPorTag(propiedad, valor) {
+        limpiarCampos();
+        const select = document.getElementById(propiedad);
+        select.value = valor;
+        buscar();
+      }
 
+      function inicializarFiltros() {
+        const poblarSelect = (id, propiedad) => {
+          const select = document.getElementById(id);
+          if (!select) return;
+
+          const valores = [
+            ...new Set(propuestas.map((p) => p[propiedad])),
+          ].filter((v) => v);
+
+          if (propiedad === "duracion") {
+            const obtenerPeso = (str) => {
+              if (str === "Otra") {
+                return 999;
+              }
+              if (str.includes("cuatrimestre")) {
+                const num = parseInt(str) || 0;
+                return num;
+              }
+              return 100;
+            };
+            valores.sort((a, b) => obtenerPeso(a) - obtenerPeso(b));
+          } else if (propiedad === "arancelada") {
+            valores.sort((a, b) =>
+              b.localeCompare(a, "es", { sensitivity: "base" }),
+            );
+          } else {
+            valores.sort((a, b) =>
+              a.localeCompare(b, "es", { sensitivity: "base" }),
+            );
+          }
+
+          select.innerHTML = '<option value="">Cualquiera...</option>';
+          valores.forEach((v) => {
+            const opt = document.createElement("option");
+            opt.value = v;
+            opt.textContent = v;
+            select.appendChild(opt);
+          });
+        };
+
+        poblarSelect("institucion", "institucion");
+        poblarSelect("area", "area");
+        poblarSelect("modalidad", "modalidad");
+        poblarSelect("duracion", "duracion");
+        poblarSelect("localidad", "localidad");
+        poblarSelect("arancelada", "arancelada");
+      }
+
+      inicializarFiltros();
+    </script>
+  </body>
 </html>

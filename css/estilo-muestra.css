@@ -103,8 +103,8 @@ body {
 
 .muestra-imagen {
   width: 100%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .muestra-imagen > img {
@@ -114,7 +114,7 @@ body {
 .video {
   width: 80%;
   margin: auto;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .videos {

@@ -50,24 +50,31 @@ body {
   width: 80%;
 }
 
-.menu-horizontal {
-  display: flex;
-  justify-content: flex-end;
+.menu-horizontal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+
+.menu-enlace{
+    display: block;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+    border-right: 1px solid #1976ff; 
 }
 
-.menu-enlace {
-  display: block;
-  padding-left: 0.48%;
-  text-decoration: none;
+.menu-enlace:last-child{
+    border-right: none;   
 }
 
-.menu-enlace > a {
-  display: block;
-  text-decoration: none;
-  font-size: 18px;
-  font-family: sans-serif;
-  font-weight: 600;
-  color: #1976ff;
+.menu-enlace > a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1;       
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #1976ff;
 }
 
 .logos > img {

@@ -1,3 +1,4 @@
+// Arreglo que contiene las propuestas presentadas por distintas instituciones para la muestra de carreras 2026
 const propuestas = [
       {
             "titulo": "Tecnicatura Superior en Diseño y Producción de Indumentaria",

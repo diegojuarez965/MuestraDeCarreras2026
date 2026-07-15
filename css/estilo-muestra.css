@@ -299,6 +299,8 @@ body {
 
 .buscar .campo select {
   flex: 1;
+  min-width: 0;
+  max-width: 100%;
   appearance: none;
   -webkit-appearance: none;
   background-color: #d9d9d9;

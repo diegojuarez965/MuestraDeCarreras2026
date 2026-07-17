@@ -92,9 +92,53 @@ body {
   /* evita que el <a> agregue alto extra alrededor del svg */
 }
 
-.separador {
-  font-weight: 300;
+.baner {
+  background-color: #1976ff;
+  width: 100%;
+  padding: 40px 6%;
 }
+
+.baner div{
+    margin-left: 22%;
+    margin-top: 5%;
+    margin-bottom: -1%;
+}
+
+.p-titulo{
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+}
+
+.p-texto{
+    color: white;
+    font-weight:200;
+    font-size: 30px;
+    font-family: 'work sans';
+}
+
+
+.doe div{
+  width: 60%;
+  margin: auto;
+  padding-left: 5%;
+  color: #2f3f50;
+  margin-bottom: 5%;
+
+}
+
+.doe h2 {
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.doe p {
+    padding-top: 2%;
+    padding-right: 5%;
+    line-height: 1.5;
+    font-family: 'Rubik';
+}
+
 
 .presentacion {
   width: 80%;
@@ -647,6 +691,34 @@ body {
     background-color: #eaf1ff;
     color: #1a63d6;
   }
+
+   .baner div{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+
+.p-titulo{
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+
+.p-texto{
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.doe div{
+    width: 90%;
+    padding-left: 5%;
+  
+}
+
+.doe h2 {
+    font-size: 22px;
+}
   
   .presentacion-contenedor {
     flex-direction: column;
@@ -777,3 +849,40 @@ body {
     font-size: 0.85rem;
   }
 }
+
+@media(max-width: 600px){
+
+     .menu {
+  margin-top: 2%;
+}
+
+ .baner div{
+    margin-bottom: -5%;
+}
+
+}
+
+@media(max-width: 500px){
+
+     .menu {
+  margin-top: 1%;
+}
+
+.p-titulo{
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+
+.p-texto{
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.doe h2 {
+    font-size: 20px;
+}
+
+}
+

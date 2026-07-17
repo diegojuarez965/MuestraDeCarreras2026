@@ -118,7 +118,7 @@ const propuestas = [
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://derecho.uns.edu.ar/abogacia/"
+            "url": "https://derecho.uns.edu.ar/abogacia-muestra-de-carreras/"
       },
       {
             "titulo": "Licenciatura en Seguridad Pública",
@@ -128,7 +128,7 @@ const propuestas = [
             "duracion": "4 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://derecho.uns.edu.ar/licenciatura-en-seguridad-publica/"
+            "url": "https://derecho.uns.edu.ar/abogacia-muestra-de-carreras/"
       },
       {
             "titulo": "Tecnicatura Superior en Traductorado Técnico -Científico en Lengua Inglesa",

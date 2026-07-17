@@ -44,9 +44,9 @@
             </svg>
           </a>
          <ul class="menu-horizontal">
-          <li class="menu-enlace"><a href="index-muestra.html" target="_blank">INICIO</a></li>
+          <li class="menu-enlace"><a href="index-muestra.html">INICIO</a></li>
           <li class="menu-enlace"><a href="#" target="_blank">ACTIVIDADES</a></li>
-          <li class="menu-enlace"><a href="doe.html" target="_blank">DOE</a></li>
+          <li class="menu-enlace"><a href="doe.html">DOE</a></li>
           <li class="menu-enlace"><a href="#" target="_blank">CONTACTO</a></li>
         </ul>
 
@@ -131,188 +131,11 @@
     </div>
   </section>
 
-
-  <!-- <script>
-    function accion() {
-      var enlace = document.getElementsByClassName('menu-enlace');
-      for (var i = 0; i < enlace.length; i++) {
-        enlace[i].classList.toggle('desaparece');
-      }
-    }
-  </script> -->
-
-  <script>
-      function accion() {
-        document.getElementById('btnMenu').classList.toggle('activo');
-        document.querySelector('.menu-horizontal').classList.toggle('activo');
-      }
-    </script>
-
-  <script src="propuestas.js"></script>
-
-  <script>
-    const CANT_POR_PAGINA = 5;
-    let resultadosFiltrados = [];
-    let paginaActual = 1;
-
-    function buscar() {
-      const institucion = document.getElementById('institucion').value;
-      const area = document.getElementById('area').value;
-      const modalidad = document.getElementById('modalidad').value;
-      const duracion = document.getElementById('duracion').value;
-      const localidad = document.getElementById('localidad').value;
-      const arancelada = document.getElementById('arancelada').value;
-
-      resultadosFiltrados = propuestas.filter(p => {
-        return (
-          (!institucion || p.institucion === institucion) &&
-          (!area || p.area === area) &&
-          (!modalidad || p.modalidad === modalidad) &&
-          (!duracion || p.duracion === duracion) &&
-          (!localidad || p.localidad === localidad) &&
-          (!arancelada || p.arancelada === arancelada)
-        );
-      });
-      resultadosFiltrados = resultadosFiltrados.sort((a, b) => a.titulo.localeCompare(b.titulo));
-      paginaActual = 1;
-      crearBotonesPaginas(resultadosFiltrados);
-      mostrarResultados(1);
-      /*limpiarCampos(); */
-    }
-
-    function crearBotonesPaginas(resultados) {
-      const paginacionDiv = document.getElementById('paginacion');
-      if (!paginacionDiv) return;
-      paginacionDiv.innerHTML = '';
-
-      const cantResultados = resultados.length;
-      const cantPaginas = Math.ceil(cantResultados / CANT_POR_PAGINA);
-
-      if (cantPaginas <= 1) {
-        return;
-      }
-
-      for (let i = 1; i <= cantPaginas; i++) {
-        const boton = document.createElement('button');
-        boton.textContent = i;
-        boton.className = 'btn-pagina' + (i === 1 ? ' activo' : '');
-        boton.addEventListener('click', () => {
-          mostrarResultados(i);
-        });
-        paginacionDiv.appendChild(boton);
-      }
-    }
-
-    function limpiarCampos() {
-      document.getElementById('institucion').value = '';
-      document.getElementById('area').value = '';
-      document.getElementById('modalidad').value = '';
-      document.getElementById('duracion').value = '';
-      document.getElementById('localidad').value = '';
-      document.getElementById('arancelada').value = '';
-    }
-
-    function mostrarResultados(pagina) {
-      paginaActual = pagina;
-      const seccion = document.getElementById('resultados');
-      const header = document.getElementById('resultados-header');
-      const grid = document.getElementById('resultados-grid');
-
-      seccion.style.display = 'block';
-      grid.innerHTML = '';
-
-      if (resultadosFiltrados.length === 0) {
-        header.textContent = '';
-        grid.innerHTML = `
-              <div class="sin-resultados">
-                No se encontraron propuestas con los filtros seleccionados.
-              </div>`;
-        const paginacionDiv = document.getElementById('paginacion');
-        if (paginacionDiv) paginacionDiv.innerHTML = '';
-        return;
-      }
-
-      header.textContent = `${resultadosFiltrados.length} propuesta${resultadosFiltrados.length > 1 ? 's' : ''} encontrada${resultadosFiltrados.length > 1 ? 's' : ''}`;
-
-      const resultadosPagina = resultadosFiltrados.slice((pagina - 1) * CANT_POR_PAGINA, pagina * CANT_POR_PAGINA);
-      resultadosPagina.forEach(p => {
-        const card = document.createElement('div');
-        card.className = 'propuesta-card';
-        card.innerHTML = `
-              <h3>${p.titulo}</h3>
-              <div class="institucion">${p.institucion}</div>
-              <div class="tags">
-                <span class="tag"> ${p.area}</span>
-                <span class="tag"> ${p.modalidad}</span>
-                <span class="tag"> ${p.duracion}</span>
-                <span class="tag"> ${p.localidad}</span>
-                <span class="tag ${p.arancelada}">
-                  ${p.arancelada === 'No' ? ' Gratuita' : ' Arancelada'}
-                </span>
-              </div>
-              ${p.url ? `<a class="btn-conocer-mas" href="${p.url}" target="_blank" rel="noopener noreferrer">Conocer más</a>` : ''}
-            `;
-        grid.appendChild(card);
-      });
-
-      const botones = document.querySelectorAll('#paginacion .btn-pagina');
-      botones.forEach((btn, idx) => {
-        if (idx === pagina - 1) {
-          btn.classList.add('activo');
-        } else {
-          btn.classList.remove('activo');
-        }
-      });
-
-      seccion.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-
-    function inicializarFiltros() {
-      const poblarSelect = (id, propiedad) => {
-        const select = document.getElementById(id);
-        if (!select) return;
-
-        const valores = [...new Set(propuestas.map(p => p[propiedad]))]
-          .filter(v => v);
-
-        if (propiedad === 'duracion') {
-          const obtenerPeso = (str) => {
-            if (str === 'Otra') {
-              return 999;
-            }
-            if (str.includes('cuatrimestre')) {
-              const num = parseInt(str) || 0;
-              return num;
-            }
-            return 100;
-          };
-          valores.sort((a, b) => obtenerPeso(a) - obtenerPeso(b));
-        } else if (propiedad === 'arancelada') {
-          valores.sort((a, b) => b.localeCompare(a, 'es', { sensitivity: 'base' }));
-        } else {
-          valores.sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));
-        }
-
-        select.innerHTML = '<option value="">Cualquiera...</option>';
-        valores.forEach(v => {
-          const opt = document.createElement('option');
-          opt.value = v;
-          opt.textContent = v;
-          select.appendChild(opt);
-        });
-      };
-
-      poblarSelect('institucion', 'institucion');
-      poblarSelect('area', 'area');
-      poblarSelect('modalidad', 'modalidad');
-      poblarSelect('duracion', 'duracion');
-      poblarSelect('localidad', 'localidad');
-      poblarSelect('arancelada', 'arancelada');
-    }
-
-    inicializarFiltros();
-  </script>
-
+ <script src="js/menu.js"></script>
+ <script src="js/propuestas.js"></script>
+ <script src="js/buscador.js"></script>
+ <script src="js/contador.js"></script>
+ 
 </body>
 
 </head>

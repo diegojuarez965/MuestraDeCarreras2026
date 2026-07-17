@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    <link rel="stylesheet" href="css/estilo-muestra.css">
+   <link rel="shortcut icon" href="img/isotipo.jpeg" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    
+    
+    <title>Doe</title>
+    
+   <style>
+
+
+  
+   </style>
+
+   <body>
+
+  <section class="contenido">
+
+    <section class="navegador" style="border-bottom-style: none;">
+
+      <div class="nav-logos">
+        <div class="logos">
+          <img src="img/logos.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="nav-menu">
+        <div class="menu">
+          <a class="menu-responsive" onclick="accion()" title="Menú" aria-label="Abrir menú" id="btnMenu">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.3" stroke-linecap="round">
+              <line class="linea linea-top" x1="3" y1="6" x2="21" y2="6"></line>
+              <line class="linea linea-mid" x1="3" y1="12" x2="21" y2="12"></line>
+              <line class="linea linea-bottom" x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </a>
+         <ul class="menu-horizontal">
+          <li class="menu-enlace"><a href="index-muestra.html" target="_blank">INICIO</a></li>
+          <li class="menu-enlace"><a href="#" target="_blank">ACTIVIDADES</a></li>
+          <li class="menu-enlace"><a href="doe.html" target="_blank">DOE</a></li>
+          <li class="menu-enlace"><a href="#" target="_blank">CONTACTO</a></li>
+        </ul>
+
+        </div>
+      </div>
+
+    </section>
+  </section>
+
+  <section class="baner">
+
+    <div>
+        <p class="p-titulo">
+           DOE
+        </p>
+        <p class="p-texto">
+           DEPARTAMENTO DE ORIENTACIÓN EDUCACIONAL
+        </p>
+    </div>
+  </section>
+
+  <section class="doe" style="margin: auto;">
+     <div>
+
+       
+            <h2>
+               Qué es el DOE?
+            </h1>
+            <p>
+                 El Departamento de Orientación Educacional constituye una unidad técnico – pedagógica que debe contribuir al mejoramiento de los procesos de integración y crecimiento personal de los y las estudiantes de los Establecimientos Preuniversitarios, planificando y organizando toda actividad que tienda a ese propósito, en acuerdo con cada equipo directivo.
+
+
+            </p>
+            <h2>
+                Funciones
+            </h2>
+            <p>
+                 Favorecer y coordinar actividades destinadas a promover la integración de los alumnos y las alumnas ingresantes en todas las escuelas Preuniversitarias de la UNS,
+            </p>
+            <p>
+                Acompañar las trayectorias educativas de los y las estudiantes, atendiendo toda inquietud en referencia a detección de dificultades y seguimiento de situaciones individuales o grupales,
+            </p>
+            <p>
+                Organizar y seleccionar información cognitiva y socioafectiva propia el acompañamiento individual, a lo largo de su transcurrir escolar.
+            </p>
+            <h2>
+                Muestra Informativa de Carreras de Nivel Superior
+            </h2>
+            <p>
+               Organizamos anualmente la Muestra Informativa de Carreras de Nivel Superior, con el apoyo sostenido de la UNS. Este proyecto que perdura desde hace más de 3 décadas, comparte los cambios de la sociedad bahiense y actualiza constantemente la oferta educativa de la ciudad para quienes deseen acceder a estudios de nivel superior. Dentro de la MIC, ofrecemos diversas charlas y talleres sobre Orientación Vocacional.
+            </p>
+       
+
+    </div>
+  </section>
+
+  
+
+  <section class="pie">
+    <div class="pie-contenedor">
+
+      <div class="part-1">
+        <img src="img/logo70.png" alt="70 años Universidad Nacional del Sur">
+      </div>
+
+      <div class="pie-derecha">
+        <div class="part-2">
+          <div><a href="#" target="_blank" title="twitter Muestra de Carreras"><img src="img/img5.jpeg"
+                alt="Twitter"></a></div>
+          <div><a href="#" target="_blank" title="facebook Muestra de Carreras"><img src="img/img7.jpeg"
+                alt="Facebook"></a></div>
+          <div><a href="#" target="_blank" title="Muestra de Carreras"><img src="img/img6.jpeg" alt="YouTube"></a></div>
+          <div><a href="#" target="_blank" title="instagram Muestra de Carreras"><img src="img/img3.jpeg"
+                alt="Instagram"></a></div>
+        </div>
+
+        <div class="pie-texto">
+          <p>&copy; 2026 MUESTRA2026 | UNIVERSIDAD NACIONAL DEL SUR<br>muestracarreras@uns.edu.ar</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- <script>
+    function accion() {
+      var enlace = document.getElementsByClassName('menu-enlace');
+      for (var i = 0; i < enlace.length; i++) {
+        enlace[i].classList.toggle('desaparece');
+      }
+    }
+  </script> -->
+
+  <script>
+      function accion() {
+        document.getElementById('btnMenu').classList.toggle('activo');
+        document.querySelector('.menu-horizontal').classList.toggle('activo');
+      }
+    </script>
+
+  <script src="propuestas.js"></script>
+
+  <script>
+    const CANT_POR_PAGINA = 5;
+    let resultadosFiltrados = [];
+    let paginaActual = 1;
+
+    function buscar() {
+      const institucion = document.getElementById('institucion').value;
+      const area = document.getElementById('area').value;
+      const modalidad = document.getElementById('modalidad').value;
+      const duracion = document.getElementById('duracion').value;
+      const localidad = document.getElementById('localidad').value;
+      const arancelada = document.getElementById('arancelada').value;
+
+      resultadosFiltrados = propuestas.filter(p => {
+        return (
+          (!institucion || p.institucion === institucion) &&
+          (!area || p.area === area) &&
+          (!modalidad || p.modalidad === modalidad) &&
+          (!duracion || p.duracion === duracion) &&
+          (!localidad || p.localidad === localidad) &&
+          (!arancelada || p.arancelada === arancelada)
+        );
+      });
+      resultadosFiltrados = resultadosFiltrados.sort((a, b) => a.titulo.localeCompare(b.titulo));
+      paginaActual = 1;
+      crearBotonesPaginas(resultadosFiltrados);
+      mostrarResultados(1);
+      /*limpiarCampos(); */
+    }
+
+    function crearBotonesPaginas(resultados) {
+      const paginacionDiv = document.getElementById('paginacion');
+      if (!paginacionDiv) return;
+      paginacionDiv.innerHTML = '';
+
+      const cantResultados = resultados.length;
+      const cantPaginas = Math.ceil(cantResultados / CANT_POR_PAGINA);
+
+      if (cantPaginas <= 1) {
+        return;
+      }
+
+      for (let i = 1; i <= cantPaginas; i++) {
+        const boton = document.createElement('button');
+        boton.textContent = i;
+        boton.className = 'btn-pagina' + (i === 1 ? ' activo' : '');
+        boton.addEventListener('click', () => {
+          mostrarResultados(i);
+        });
+        paginacionDiv.appendChild(boton);
+      }
+    }
+
+    function limpiarCampos() {
+      document.getElementById('institucion').value = '';
+      document.getElementById('area').value = '';
+      document.getElementById('modalidad').value = '';
+      document.getElementById('duracion').value = '';
+      document.getElementById('localidad').value = '';
+      document.getElementById('arancelada').value = '';
+    }
+
+    function mostrarResultados(pagina) {
+      paginaActual = pagina;
+      const seccion = document.getElementById('resultados');
+      const header = document.getElementById('resultados-header');
+      const grid = document.getElementById('resultados-grid');
+
+      seccion.style.display = 'block';
+      grid.innerHTML = '';
+
+      if (resultadosFiltrados.length === 0) {
+        header.textContent = '';
+        grid.innerHTML = `
+              <div class="sin-resultados">
+                No se encontraron propuestas con los filtros seleccionados.
+              </div>`;
+        const paginacionDiv = document.getElementById('paginacion');
+        if (paginacionDiv) paginacionDiv.innerHTML = '';
+        return;
+      }
+
+      header.textContent = `${resultadosFiltrados.length} propuesta${resultadosFiltrados.length > 1 ? 's' : ''} encontrada${resultadosFiltrados.length > 1 ? 's' : ''}`;
+
+      const resultadosPagina = resultadosFiltrados.slice((pagina - 1) * CANT_POR_PAGINA, pagina * CANT_POR_PAGINA);
+      resultadosPagina.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'propuesta-card';
+        card.innerHTML = `
+              <h3>${p.titulo}</h3>
+              <div class="institucion">${p.institucion}</div>
+              <div class="tags">
+                <span class="tag"> ${p.area}</span>
+                <span class="tag"> ${p.modalidad}</span>
+                <span class="tag"> ${p.duracion}</span>
+                <span class="tag"> ${p.localidad}</span>
+                <span class="tag ${p.arancelada}">
+                  ${p.arancelada === 'No' ? ' Gratuita' : ' Arancelada'}
+                </span>
+              </div>
+              ${p.url ? `<a class="btn-conocer-mas" href="${p.url}" target="_blank" rel="noopener noreferrer">Conocer más</a>` : ''}
+            `;
+        grid.appendChild(card);
+      });
+
+      const botones = document.querySelectorAll('#paginacion .btn-pagina');
+      botones.forEach((btn, idx) => {
+        if (idx === pagina - 1) {
+          btn.classList.add('activo');
+        } else {
+          btn.classList.remove('activo');
+        }
+      });
+
+      seccion.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function inicializarFiltros() {
+      const poblarSelect = (id, propiedad) => {
+        const select = document.getElementById(id);
+        if (!select) return;
+
+        const valores = [...new Set(propuestas.map(p => p[propiedad]))]
+          .filter(v => v);
+
+        if (propiedad === 'duracion') {
+          const obtenerPeso = (str) => {
+            if (str === 'Otra') {
+              return 999;
+            }
+            if (str.includes('cuatrimestre')) {
+              const num = parseInt(str) || 0;
+              return num;
+            }
+            return 100;
+          };
+          valores.sort((a, b) => obtenerPeso(a) - obtenerPeso(b));
+        } else if (propiedad === 'arancelada') {
+          valores.sort((a, b) => b.localeCompare(a, 'es', { sensitivity: 'base' }));
+        } else {
+          valores.sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));
+        }
+
+        select.innerHTML = '<option value="">Cualquiera...</option>';
+        valores.forEach(v => {
+          const opt = document.createElement('option');
+          opt.value = v;
+          opt.textContent = v;
+          select.appendChild(opt);
+        });
+      };
+
+      poblarSelect('institucion', 'institucion');
+      poblarSelect('area', 'area');
+      poblarSelect('modalidad', 'modalidad');
+      poblarSelect('duracion', 'duracion');
+      poblarSelect('localidad', 'localidad');
+      poblarSelect('arancelada', 'arancelada');
+    }
+
+    inicializarFiltros();
+  </script>
+
+</body>
+
+</head>
+
+</html>

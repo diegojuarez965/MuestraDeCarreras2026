@@ -92,9 +92,53 @@ body {
   /* evita que el <a> agregue alto extra alrededor del svg */
 }
 
-.separador {
-  font-weight: 300;
+.baner {
+  background-color: #1976ff;
+  width: 100%;
+  padding: 40px 6%;
 }
+
+.baner div{
+    margin-left: 22%;
+    margin-top: 5%;
+    margin-bottom: -1%;
+}
+
+.p-titulo{
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+}
+
+.p-texto{
+    color: white;
+    font-weight:200;
+    font-size: 30px;
+    font-family: 'work sans';
+}
+
+
+.doe div{
+  width: 60%;
+  margin: auto;
+  padding-left: 5%;
+  color: #2f3f50;
+  margin-bottom: 5%;
+
+}
+
+.doe h2 {
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.doe p {
+    padding-top: 2%;
+    padding-right: 5%;
+    line-height: 1.5;
+    font-family: 'Rubik';
+}
+
 
 .presentacion {
   width: 80%;
@@ -511,45 +555,171 @@ body {
   transform: scale(0.95);
 }
 
-@media (max-width: 800px) {
-  .menu-enlace {
-    display: block;
-  }
+@media(max-width: 1200px){
 
-  .nav-logos {
+    .menu-enlace > a{
+    font-size: 16px;
+   }
+
+    .baner div{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+
+.p-titulo{
+    font-weight: 600;
+    color: white;
+    font-size: 38px;
+}
+
+.p-texto{
+    color: white;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.doe{
+    width: 100%;
+  
+}
+
+.doe div{
+    margin-top: 2%;
+    margin-left: auto;
+    width: 80%;
+    padding-left: 5%;
+  
+}
+
+}
+
+@media(max-width: 1000px){
+
+    .menu-enlace > a{
+    font-size: 14px;
+   }
+}
+
+
+@media (max-width: 800px) {
+    .nav-logos {
     width: 50%;
   }
 
+  .menu{
+    padding-top: 0%;
+    margin-top: 4%;
+  }
+
+ 
   .menu-responsive {
     display: flex;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Animación del ícono X */
+  .linea {
+    transition: transform 0.25s ease, opacity 0.2s ease;
+    transform-origin: center;
+  }
+
+  .menu-responsive.activo .linea-top {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .menu-responsive.activo .linea-mid {
+    opacity: 0;
+  }
+
+  .menu-responsive.activo .linea-bottom {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: relative;
   }
 
   .menu-horizontal {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 220px;
+    background-color: #fff7f0;
+    border: 1px solid #2e7bf4;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(25, 118, 255, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.25s ease, opacity 0.2s ease;
+    z-index: 20;
+  }
+
+  .menu-horizontal.activo {
+    max-height: 400px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .menu-enlace {
     display: block;
-    position: relative;
-    float: right;
-    font-size: 8px;
-    background-color: white;
-    width: 80%;
+    border-right: none;
+    border-bottom: 1px solid #e8e3da;
   }
 
-  .menu-horizontal li {
-    padding: 3%;
-    border-bottom-style: solid;
-    border-color: grey;
-    border-width: 0.5px;
+  .menu-enlace:last-child {
+    border-bottom: none;
   }
 
-  .desaparece {
-    display: none;
+  .menu-enlace > a {
+    padding: 14px 18px;
+    font-size: 15px;
+    color: #1976ff;
+    transition: background-color 0.15s ease, color 0.15s ease;
   }
 
-  .separador {
-    display: none;
+  .menu-enlace > a:hover,
+  .menu-enlace > a:active {
+    background-color: #eaf1ff;
+    color: #1a63d6;
   }
 
+   .baner div{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+
+.p-titulo{
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+
+.p-texto{
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.doe div{
+    width: 90%;
+    padding-left: 5%;
+  
+}
+
+.doe h2 {
+    font-size: 22px;
+}
+  
   .presentacion-contenedor {
     flex-direction: column;
     text-align: left;
@@ -679,3 +849,40 @@ body {
     font-size: 0.85rem;
   }
 }
+
+@media(max-width: 600px){
+
+     .menu {
+  margin-top: 2%;
+}
+
+ .baner div{
+    margin-bottom: -5%;
+}
+
+}
+
+@media(max-width: 500px){
+
+     .menu {
+  margin-top: 1%;
+}
+
+.p-titulo{
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+
+.p-texto{
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.doe h2 {
+    font-size: 20px;
+}
+
+}
+

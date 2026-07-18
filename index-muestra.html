@@ -1,72 +1,57 @@
 <!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo-muestra.css" />
+    <link rel="shortcut icon" href="img/isotipo.jpeg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="components/navegador.js"></script>
+    <script src="components/pie-pagina.js"></script>
 
-  <link rel="stylesheet" href="css/estilo-muestra.css">
-  <link rel="shortcut icon" href="img/isotipo.jpeg" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+    <title>Muestra de Carreras</title>
+  </head>
 
-  <title>Muestra de Carreras</title>
-</head>
+  <body>
+    <section class="contenido">
+      <menu-navegador></menu-navegador>
 
-<body>
-  <section class="contenido">
-    <section class="navegador">
-      <div class="nav-logos">
-        <div class="logos">
-          <img src="img/logos.png" alt="" />
+      <section class="presentacion">
+        <div class="presentacion-contenedor">
+          <div class="muestra-imagen">
+            <img src="img/muestra.png" alt="Logo Muestra de Carreras" />
+          </div>
+          <div class="muestra-texto">
+            <h2><span>MIC</span> | Edición 2026</h2>
+            <p>
+              Los días 13 y 14 de agosto de 2026 tendrá lugar la 34° edición de
+              la Muestra Informativa de Carreras de Nivel Superior. El evento se
+              desarrollará en el Campus Palihue de la Universidad Nacional del
+              Sur. El horario para visitarla será de 9 a 18 hs.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="nav-menu">
-        <div class="menu">
-          <a class="menu-responsive" onclick="accion()" title="Menú" aria-label="Abrir menú" id="btnMenu">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.3" stroke-linecap="round">
-              <line class="linea linea-top" x1="3" y1="6" x2="21" y2="6"></line>
-              <line class="linea linea-mid" x1="3" y1="12" x2="21" y2="12"></line>
-              <line class="linea linea-bottom" x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-          </a>
-          <ul class="menu-horizontal">
-            <li class="menu-enlace"><a href="index-muestra.html" >INICIO</a></li>
-            <li class="menu-enlace"><a href="#" target="_blank">ACTIVIDADES</a></li>
-            <li class="menu-enlace"><a href="doe-html" >DOE</a></li>
-            <li class="menu-enlace"><a href="#" target="_blank">CONTACTO</a></li>
-          </ul>
+      <section class="video">
+        <div class="videos">
+          <img src="img/portada-video.png" alt="Portada" />
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="presentacion">
-      <div class="presentacion-contenedor">
-        <div class="muestra-imagen">
-          <img src="img/muestra.png" alt="Logo Muestra de Carreras" />
-        </div>
-        <div class="muestra-texto">
-          <h2><span>MIC</span> | Edición 2026</h2>
-          <p>Los días 13 y 14 de agosto de 2026 tendrá lugar la 34° edición de la Muestra Informativa de Carreras de
-            Nivel Superior. El evento se desarrollará en el Campus Palihue de la Universidad Nacional del Sur. El
-            horario para visitarla será de 9 a 18 hs.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="video">
-      <div class="videos">
-        <img src="img/portada-video.png" alt="" />
-      </div>
-    </section>
-
-    <section class="video" style="display: none">
-      <div class="videos">
-        <iframe style="width: 100%; height: 100%; display: block" src="https://www.youtube.com/embed/NGzN_Vo0LJQ"
-          title="YouTube video player" frameborder="0" allow="
+      <section class="video" style="display: none">
+        <div class="videos">
+          <iframe
+            style="width: 100%; height: 100%; display: block"
+            src="https://www.youtube.com/embed/NGzN_Vo0LJQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
               accelerometer;
               autoplay;
               clipboard-write;
@@ -74,125 +59,105 @@
               gyroscope;
               picture-in-picture;
               web-share;
-            " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="buscador">
+        <div class="cartelera">
+          <div class="div-img">
+            <img
+              src="img/cartelera.png"
+              alt="Cartelera Muestra de Carreras 2026"
+            />
+          </div>
+        </div>
+
+        <div class="buscar">
+          <div class="card">
+            <div class="campo">
+              <label for="institucion">Institución</label>
+              <select id="institucion">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="area">Área disciplinar</label>
+              <select id="area">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="modalidad">Modalidad de Dictado</label>
+              <select id="modalidad">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="duracion">Duración</label>
+              <select id="duracion">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="localidad">Localidad de Dictado</label>
+              <select id="localidad">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="arancelada">¿Es arancelada?</label>
+              <select id="arancelada">
+                <option value="">Cualquiera...</option>
+              </select>
+            </div>
+
+            <button class="btn-buscar" onclick="buscar()">
+              Buscar
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="11" cy="11" r="7"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+
+            <div class="resultados" id="resultados" style="display: none">
+              <p class="resultados-header" id="resultados-header"></p>
+              <div class="resultados-grid" id="resultados-grid"></div>
+              <div class="paginacion" id="paginacion"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cronograma">
+        <div>
+          <img
+            src="img/cronograma.png"
+            alt="Cronograma de la Muestra de Carreras 2026"
+          />
+        </div>
+      </section>
     </section>
 
-    <section class="buscador">
-      <div class="cartelera">
-        <div class="div-img">
-          <img src="img/cartelera.png" alt="" />
-        </div>
-      </div>
+    <pie-pagina></pie-pagina>
 
-      <div class="buscar">
-        <div class="card">
-          <div class="campo">
-            <label for="institucion">Institución</label>
-            <select id="institucion">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="area">Área disciplinar</label>
-            <select id="area">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="modalidad">Modalidad de Dictado</label>
-            <select id="modalidad">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="duracion">Duración</label>
-            <select id="duracion">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="localidad">Localidad de Dictado</label>
-            <select id="localidad">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <div class="campo">
-            <label for="arancelada">¿Es arancelada?</label>
-            <select id="arancelada">
-              <option value="">Cualquiera...</option>
-            </select>
-          </div>
-
-          <button class="btn-buscar" onclick="buscar()">
-            Buscar
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="7"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-          </button>
-
-          <div class="resultados" id="resultados" style="display: none">
-            <p class="resultados-header" id="resultados-header"></p>
-            <div class="resultados-grid" id="resultados-grid"></div>
-            <div class="paginacion" id="paginacion"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cronograma">
-      <div>
-        <img src="img/cronograma.png" alt="" />
-      </div>
-    </section>
-  </section>
-
-  <section class="pie">
-    <div class="pie-contenedor">
-      <div class="part-1">
-        <img src="img/logo70.png" alt="70 años Universidad Nacional del Sur" />
-      </div>
-
-      <div class="pie-derecha">
-        <div class="part-2">
-          <div>
-            <a href="https://www.instagram.com/muestrainformativadecarreras?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-              target="_blank" title="instagram Muestra de Carreras"><img src="img/instagram.jpeg" alt="Instagram" /></a>
-          </div>
-          <div>
-            <a href="mailto:muestradecarrerasuns@gmail.com" title="Correo Muestra de Carreras"><img
-                src="img/correo.jpeg" alt="Correo electrónico" /></a>
-          </div>
-        </div>
-
-        <div class="pie-texto">
-          <p>
-            &copy; 2026 MUESTRA2026 | UNIVERSIDAD NACIONAL DEL SUR
-          </p>
-          <p id="visitas-container">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              style="vertical-align: middle; margin-right: 4px; display: inline-block;">
-              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-              <circle cx="12" cy="12" r="3"></circle>
-            </svg>Visitas: <span id="contador-visitas">...</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script src="js/menu.js"></script>
-  <script src="js/propuestas.js"></script>
-  <script src="js/buscador.js"></script>
-  <script src="js/contador.js"></script>
-</body>
-
+    <script src="js/propuestas.js"></script>
+    <script src="js/buscador.js"></script>
+  </body>
 </html>

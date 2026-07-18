@@ -15,6 +15,11 @@ body {
   overflow-x: hidden;
 }
 
+menu-navegador,
+pie-pagina {
+  display: block;
+}
+
 .contenido {
   padding-top: 5%;
   width: 80%;
@@ -68,7 +73,7 @@ body {
   border-right: none;
 }
 
-.menu-enlace>a {
+.menu-enlace > a {
   display: block;
   text-decoration: none;
   font-size: 18px;
@@ -78,7 +83,7 @@ body {
   color: #1976ff;
 }
 
-.logos>img {
+.logos > img {
   width: 100%;
 }
 
@@ -89,7 +94,9 @@ body {
   color: #1976ff;
   cursor: pointer;
   line-height: 0;
-  /* evita que el <a> agregue alto extra alrededor del svg */
+  background: none;
+  border: none;
+  padding: 0;
 }
 
 .baner {
@@ -98,47 +105,44 @@ body {
   padding: 40px 6%;
 }
 
-.baner div{
-    margin-left: 22%;
-    margin-top: 5%;
-    margin-bottom: -1%;
+.baner div {
+  margin-left: 22%;
+  margin-top: 5%;
+  margin-bottom: -1%;
 }
 
-.p-titulo{
-    font-weight: 600;
-    color: white;
-    font-size: 42px;
+.p-titulo {
+  font-weight: 600;
+  color: white;
+  font-size: 42px;
 }
 
-.p-texto{
-    color: white;
-    font-weight:200;
-    font-size: 30px;
-    font-family: 'work sans';
+.p-texto {
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+  font-family: "work sans";
 }
 
-
-.doe div{
+.doe div {
   width: 60%;
   margin: auto;
   padding-left: 5%;
   color: #2f3f50;
   margin-bottom: 5%;
-
 }
 
 .doe h2 {
-    padding-top: 5%;
-    padding-right: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
 }
 
 .doe p {
-    padding-top: 2%;
-    padding-right: 5%;
-    line-height: 1.5;
-    font-family: 'Rubik';
+  padding-top: 2%;
+  padding-right: 5%;
+  line-height: 1.5;
+  font-family: "Rubik";
 }
-
 
 .presentacion {
   width: 80%;
@@ -160,14 +164,14 @@ body {
   margin-bottom: 5%;
 }
 
-.muestra-imagen>img {
+.muestra-imagen > img {
   width: 100%;
   display: block;
 }
 
 .muestra-texto {
   width: 59.9%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #2f3f50;
 }
 
@@ -179,7 +183,7 @@ body {
   letter-spacing: -0.02em;
 }
 
-.muestra-texto h2>span {
+.muestra-texto h2 > span {
   font-weight: 700;
 }
 
@@ -202,14 +206,14 @@ body {
   aspect-ratio: 16 / 9;
 }
 
-.video>iframe {
+.video > iframe {
   margin: auto;
   width: 100%;
   height: 100%;
   display: block;
 }
 
-.videos>img {
+.videos > img {
   margin: auto;
   width: 100%;
   display: block;
@@ -229,7 +233,7 @@ body {
   margin: auto;
 }
 
-.div-img>img {
+.div-img > img {
   width: 100%;
 }
 
@@ -240,12 +244,12 @@ body {
   margin-bottom: 12%;
 }
 
-.cronograma>div {
+.cronograma > div {
   width: 80%;
   margin-left: 6%;
 }
 
-.cronograma>div>img {
+.cronograma > div > img {
   width: 100%;
 }
 
@@ -555,64 +559,57 @@ body {
   transform: scale(0.95);
 }
 
-@media(max-width: 1200px){
-
-    .menu-enlace > a{
+@media (max-width: 1200px) {
+  .menu-enlace > a {
     font-size: 16px;
-   }
+  }
 
-    .baner div{
+  .baner div {
     margin-left: 10%;
     margin-top: 5%;
     margin-bottom: -2%;
-}
+  }
 
-.p-titulo{
+  .p-titulo {
     font-weight: 600;
     color: white;
     font-size: 38px;
-}
+  }
 
-.p-texto{
+  .p-texto {
     color: white;
     font-weight: 200;
     font-size: 24px;
-}
+  }
 
-.doe{
+  .doe {
     width: 100%;
-  
-}
+  }
 
-.doe div{
+  .doe div {
     margin-top: 2%;
     margin-left: auto;
     width: 80%;
     padding-left: 5%;
-  
+  }
 }
 
-}
-
-@media(max-width: 1000px){
-
-    .menu-enlace > a{
+@media (max-width: 1000px) {
+  .menu-enlace > a {
     font-size: 14px;
-   }
+  }
 }
-
 
 @media (max-width: 800px) {
-    .nav-logos {
+  .nav-logos {
     width: 50%;
   }
 
-  .menu{
+  .menu {
     padding-top: 0%;
     margin-top: 4%;
   }
 
- 
   .menu-responsive {
     display: flex;
     padding: 0;
@@ -621,7 +618,9 @@ body {
 
   /* Animación del ícono X */
   .linea {
-    transition: transform 0.25s ease, opacity 0.2s ease;
+    transition:
+      transform 0.25s ease,
+      opacity 0.2s ease;
     transform-origin: center;
   }
 
@@ -655,11 +654,12 @@ body {
     flex-direction: column;
     align-items: stretch;
 
-
     max-height: 0;
     opacity: 0;
     pointer-events: none;
-    transition: max-height 0.25s ease, opacity 0.2s ease;
+    transition:
+      max-height 0.25s ease,
+      opacity 0.2s ease;
     z-index: 20;
   }
 
@@ -683,7 +683,9 @@ body {
     padding: 14px 18px;
     font-size: 15px;
     color: #1976ff;
-    transition: background-color 0.15s ease, color 0.15s ease;
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease;
   }
 
   .menu-enlace > a:hover,
@@ -692,34 +694,33 @@ body {
     color: #1a63d6;
   }
 
-   .baner div{
+  .baner div {
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: -3%;
-}
+  }
 
-.p-titulo{
+  .p-titulo {
     font-weight: 600;
     color: white;
     font-size: 24px;
-}
+  }
 
-.p-texto{
+  .p-texto {
     color: white;
     font-weight: 200;
     font-size: 18px;
-}
+  }
 
-.doe div{
+  .doe div {
     width: 90%;
     padding-left: 5%;
-  
-}
+  }
 
-.doe h2 {
+  .doe h2 {
     font-size: 22px;
-}
-  
+  }
+
   .presentacion-contenedor {
     flex-direction: column;
     text-align: left;
@@ -774,7 +775,7 @@ body {
     margin-top: 8%;
   }
 
-  .cronograma>div {
+  .cronograma > div {
     width: 88%;
     margin: auto;
   }
@@ -850,39 +851,34 @@ body {
   }
 }
 
-@media(max-width: 600px){
+@media (max-width: 600px) {
+  .menu {
+    margin-top: 2%;
+  }
 
-     .menu {
-  margin-top: 2%;
-}
-
- .baner div{
+  .baner div {
     margin-bottom: -5%;
+  }
 }
 
-}
+@media (max-width: 500px) {
+  .menu {
+    margin-top: 1%;
+  }
 
-@media(max-width: 500px){
-
-     .menu {
-  margin-top: 1%;
-}
-
-.p-titulo{
+  .p-titulo {
     font-weight: 600;
     color: white;
     font-size: 24px;
-}
+  }
 
-.p-texto{
+  .p-texto {
     color: white;
     font-weight: 200;
     font-size: 16px;
-}
+  }
 
-.doe h2 {
+  .doe h2 {
     font-size: 20px;
+  }
 }
-
-}
-

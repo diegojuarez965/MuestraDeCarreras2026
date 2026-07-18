@@ -1,151 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-   
-    <link rel="stylesheet" href="css/estilo-muestra.css">
-   <link rel="shortcut icon" href="img/isotipo.jpeg" type="image/x-icon"/>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-    
-    
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/estilo-muestra.css" />
+    <link rel="shortcut icon" href="img/isotipo.jpeg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="components/navegador.js"></script>
+    <script src="components/pie-pagina.js"></script>
+
     <title>Doe</title>
-    
-   <style>
+  </head>
 
-
-  
-   </style>
-
-   <body>
-
-  <section class="contenido">
-
-    <section class="navegador" style="border-bottom-style: none;">
-
-      <div class="nav-logos">
-        <div class="logos">
-          <img src="img/logos.png" alt="">
-        </div>
-      </div>
-
-
-      <div class="nav-menu">
-        <div class="menu">
-          <a class="menu-responsive" onclick="accion()" title="Menú" aria-label="Abrir menú" id="btnMenu">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.3" stroke-linecap="round">
-              <line class="linea linea-top" x1="3" y1="6" x2="21" y2="6"></line>
-              <line class="linea linea-mid" x1="3" y1="12" x2="21" y2="12"></line>
-              <line class="linea linea-bottom" x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-          </a>
-         <ul class="menu-horizontal">
-          <li class="menu-enlace"><a href="index-muestra.html">INICIO</a></li>
-          <li class="menu-enlace"><a href="#" target="_blank">ACTIVIDADES</a></li>
-          <li class="menu-enlace"><a href="doe.html">DOE</a></li>
-          <li class="menu-enlace"><a href="#" target="_blank">CONTACTO</a></li>
-        </ul>
-
-        </div>
-      </div>
-
+  <body>
+    <section class="contenido">
+      <menu-navegador no-border></menu-navegador>
     </section>
-  </section>
 
-  <section class="baner">
-
-    <div>
-        <p class="p-titulo">
-           DOE
-        </p>
-        <p class="p-texto">
-           DEPARTAMENTO DE ORIENTACIÓN EDUCACIONAL
-        </p>
-    </div>
-  </section>
-
-  <section class="doe" style="margin: auto;">
-     <div>
-
-       
-            <h2>
-               Qué es el DOE?
-            </h1>
-            <p>
-                 El Departamento de Orientación Educacional constituye una unidad técnico – pedagógica que debe contribuir al mejoramiento de los procesos de integración y crecimiento personal de los y las estudiantes de los Establecimientos Preuniversitarios, planificando y organizando toda actividad que tienda a ese propósito, en acuerdo con cada equipo directivo.
-
-
-            </p>
-            <h2>
-                Funciones
-            </h2>
-            <p>
-                 Favorecer y coordinar actividades destinadas a promover la integración de los alumnos y las alumnas ingresantes en todas las escuelas Preuniversitarias de la UNS,
-            </p>
-            <p>
-                Acompañar las trayectorias educativas de los y las estudiantes, atendiendo toda inquietud en referencia a detección de dificultades y seguimiento de situaciones individuales o grupales,
-            </p>
-            <p>
-                Organizar y seleccionar información cognitiva y socioafectiva propia el acompañamiento individual, a lo largo de su transcurrir escolar.
-            </p>
-            <h2>
-                Muestra Informativa de Carreras de Nivel Superior
-            </h2>
-            <p>
-               Organizamos anualmente la Muestra Informativa de Carreras de Nivel Superior, con el apoyo sostenido de la UNS. Este proyecto que perdura desde hace más de 3 décadas, comparte los cambios de la sociedad bahiense y actualiza constantemente la oferta educativa de la ciudad para quienes deseen acceder a estudios de nivel superior. Dentro de la MIC, ofrecemos diversas charlas y talleres sobre Orientación Vocacional.
-            </p>
-       
-
-    </div>
-  </section>
-
-  
-  <section class="pie">
-    <div class="pie-contenedor">
-      <div class="part-1">
-        <img src="img/logo70.png" alt="70 años Universidad Nacional del Sur" />
+    <section class="baner">
+      <div>
+        <p class="p-titulo">DOE</p>
+        <p class="p-texto">DEPARTAMENTO DE ORIENTACIÓN EDUCACIONAL</p>
       </div>
+    </section>
 
-      <div class="pie-derecha">
-        <div class="part-2">
-          <div>
-            <a href="https://www.instagram.com/muestrainformativadecarreras?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-              target="_blank" title="instagram Muestra de Carreras"><img src="img/instagram.jpeg" alt="Instagram" /></a>
-          </div>
-          <div>
-            <a href="mailto:muestradecarrerasuns@gmail.com" title="Correo Muestra de Carreras"><img
-                src="img/correo.jpeg" alt="Correo electrónico" /></a>
-          </div>
-        </div>
-
-        <div class="pie-texto">
-          <p>
-            &copy; 2026 MUESTRA2026 | UNIVERSIDAD NACIONAL DEL SUR
-          </p>
-          <p id="visitas-container">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              style="vertical-align: middle; margin-right: 4px; display: inline-block;">
-              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-              <circle cx="12" cy="12" r="3"></circle>
-            </svg>Visitas: <span id="contador-visitas">...</span>
-          </p>
-        </div>
+    <section class="doe" style="margin: auto">
+      <div>
+        <h2>¿Qué es el DOE?</h2>
+        <p>
+          El Departamento de Orientación Educacional constituye una unidad
+          técnico – pedagógica que debe contribuir al mejoramiento de los
+          procesos de integración y crecimiento personal de los y las
+          estudiantes de los Establecimientos Preuniversitarios, planificando y
+          organizando toda actividad que tienda a ese propósito, en acuerdo con
+          cada equipo directivo.
+        </p>
+        <h2>Funciones</h2>
+        <p>
+          Favorecer y coordinar actividades destinadas a promover la integración
+          de los alumnos y las alumnas ingresantes en todas las escuelas
+          Preuniversitarias de la UNS,
+        </p>
+        <p>
+          Acompañar las trayectorias educativas de los y las estudiantes,
+          atendiendo toda inquietud en referencia a detección de dificultades y
+          seguimiento de situaciones individuales o grupales,
+        </p>
+        <p>
+          Organizar y seleccionar información cognitiva y socioafectiva propia
+          el acompañamiento individual, a lo largo de su transcurrir escolar.
+        </p>
+        <h2>Muestra Informativa de Carreras de Nivel Superior</h2>
+        <p>
+          Organizamos anualmente la Muestra Informativa de Carreras de Nivel
+          Superior, con el apoyo sostenido de la UNS. Este proyecto que perdura
+          desde hace más de 3 décadas, comparte los cambios de la sociedad
+          bahiense y actualiza constantemente la oferta educativa de la ciudad
+          para quienes deseen acceder a estudios de nivel superior. Dentro de la
+          MIC, ofrecemos diversas charlas y talleres sobre Orientación
+          Vocacional.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
- <script src="js/menu.js"></script>
- <script src="js/propuestas.js"></script>
- <script src="js/buscador.js"></script>
- <script src="js/contador.js"></script>
- 
-</body>
-
-</head>
-
+    <pie-pagina></pie-pagina>
+  </body>
 </html>

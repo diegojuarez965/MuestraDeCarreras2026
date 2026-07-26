@@ -61,7 +61,7 @@ class Navegador extends HTMLElement {
               </li>
               <li class="menu-enlace"><a href="doe.html">DOE</a></li>
               <li class="menu-enlace">
-                <a href="#">CONTACTO</a>
+                <a href="#contacto">CONTACTO</a>
               </li>
             </ul>
           </div>

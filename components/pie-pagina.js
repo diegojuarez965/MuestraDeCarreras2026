@@ -1,7 +1,7 @@
 class PiePagina extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <section class="pie">
+    <section class="pie" id="contacto">
       <div class="pie-contenedor">
         <div class="part-1">
           <img

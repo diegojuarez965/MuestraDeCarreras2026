@@ -2809,5 +2809,215 @@ const propuestas = [
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://diuns.short.gy/Muestra"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Trabajo Social",
+            "institucion": "Instituto Superior María Auxiliadora N° 4129",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "Otra",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://www.imabahiablanca.edu.ar"
+      },
+      {
+            "titulo": "Profesorado en Educación Inicial",
+            "institucion": "Instituto Superior María Auxiliadora N° 4129",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "Otra",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://www.imabahiablanca.edu.ar"
+      },
+      {
+            "titulo": "Licenciatura en Historia",
+            "institucion": "UNS - Departamento de Humanidades",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "10 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=4&carrera=22"
+      },
+      {
+            "titulo": "Profesorado en Historia",
+            "institucion": "UNS - Departamento de Humanidades",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "10 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=4&carrera=42"
+      },
+      {
+            "titulo": "Licenciatura en Filosofía",
+            "institucion": "UNS - Departamento de Humanidades",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "10 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=4&carrera=24"
+      },
+      {
+            "titulo": "Profesorado en Filosofía",
+            "institucion": "UNS - Departamento de Humanidades",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "10 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=4&carrera=70"
+      },
+      {
+            "titulo": "Licenciatura en Letras",
+            "institucion": "UNS - Departamento de Humanidades",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "10 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=4&carrera=23"
+      },
+      {
+            "titulo": "Profesorado en Letras",
+            "institucion": "UNS - Departamento de Humanidades",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "10 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=4&carrera=43"
+      },
+      {
+            "titulo": "Profesorado en Música Orientación Instrumento",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Profesorado de Música - Canto Lírico",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Profesorado Orientación Educación Musical",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Profesorado de Música - Orientación Canto Popular",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Profesorado de Música - Orientación Instrumento Música Popular - Bajo Eléctrico - Guitarra - Guitarra Eléctrica",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Tecnicatura - Capacitación Instrumental",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Tecnicatura Capacitación Vocal",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Capacitación Instrumental Música Popular",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Tecnicatura Capacitación Vocal Música Popular",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "FOBA Jóvenes y Adultos",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "FOBA Canto Lírico - Camarístico",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "FOBA Canto Música Popular",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "FOBA Instrumento Música Popular (Bajo y Guitarra Eléctrica)",
+            "institucion": "Conservatorio de Música",
+            "area": "Artes",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "No",
+            "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
       }
 ];

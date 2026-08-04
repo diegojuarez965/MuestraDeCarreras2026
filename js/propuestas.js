@@ -58,7 +58,7 @@ const propuestas = [
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://www.uns.edu.ar/deptos/geologia"
+            "url": "https://www.geologia.uns.edu.ar/banner/lg.php"
       },
       {
             "titulo": "Tecnicatura Universitaria en Medio Ambiente",
@@ -68,7 +68,7 @@ const propuestas = [
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=5&carrera=167"
+            "url": "https://www.geologia.uns.edu.ar/banner/tuma.php"
       },
       {
             "titulo": "Profesorado en Geociencias",
@@ -78,7 +78,7 @@ const propuestas = [
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://servicios.uns.edu.ar/grado/plan.asp?dependen=5&carrera=133"
+            "url": "https://www.geologia.uns.edu.ar/banner/pg.php"
       },
       {
             "titulo": "Ingeniería Agronómica",

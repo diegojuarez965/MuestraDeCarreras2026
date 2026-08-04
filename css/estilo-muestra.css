@@ -144,10 +144,10 @@ pie-pagina {
   font-family: "Rubik";
 }
 
-.presentacion {
+/* .presentacion {
   width: 80%;
   margin: auto;
-}
+} 
 
 .presentacion-contenedor {
   display: flex;
@@ -192,7 +192,44 @@ pie-pagina {
   line-height: 1.65;
   color: #2f3f50;
   font-weight: 400;
+} */
+
+.presentacion {
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
+
+.muestra-imagen {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.muestra-imagen>img {
+  width: 100%;
+}
+
+ .presentacion-responsive{
+    display: none;
+    width: 90%;
+    margin: auto;
+  }
+
+  .presentacion-responsive div{
+    margin: auto;
+  }
+
+  .pr-1{
+    width: 50%;
+  }
+
+ .presentacion-responsive img{
+    margin: auto;
+    width: 100%;
+    
+  }
+
 
 .video {
   width: 80%;
@@ -721,7 +758,26 @@ pie-pagina {
     font-size: 22px;
   }
 
-  .presentacion-contenedor {
+  .presentacion {
+    width: 90%;
+    padding: 1%;
+    display: none;
+  }
+
+  .presentacion-responsive {
+    display: block;
+  }
+
+  .pr-1{
+    padding-top: 5%;
+  }
+
+  .pr-2{
+    margin-top: -10%;
+    padding-bottom: 5%;
+  }
+
+ /* .presentacion-contenedor {
     flex-direction: column;
     text-align: left;
     width: 100%;
@@ -748,18 +804,18 @@ pie-pagina {
     line-height: 1.5;
   }
 
-  .contenido {
-    width: 90%;
-  }
-
-  .video {
-    width: 90%;
-    margin-bottom: 5%;
-  }
-
   .presentacion {
     width: 90%;
     padding: 1%;
+  }  */
+
+   .contenido {
+    width: 90%;
+  }
+
+   .video {
+    width: 90%;
+    margin-bottom: 5%;
   }
 
   .cartelera {

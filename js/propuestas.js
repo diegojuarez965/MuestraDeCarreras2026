@@ -503,12 +503,12 @@ const propuestas = [
       {
             "titulo": "Bioquimica",
             "institucion": "UNS - Departamento de Biología, Bioquímica y Farmacia",
-            "area": "Ciencias Naturales",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "11 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://www.bbf.uns.edu.ar/"
+            "url": "https://www.bbf.uns.edu.ar/34-muestra-informativa-de-carreras-de-ensenanza-superior/"
       },
       {
             "titulo": "Licenciatura en Ciencias Biológicas",
@@ -518,17 +518,17 @@ const propuestas = [
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://www.bbf.uns.edu.ar/"
+            "url": "https://www.bbf.uns.edu.ar/34-muestra-informativa-de-carreras-de-ensenanza-superior/"
       },
       {
             "titulo": "Farmacia",
             "institucion": "UNS - Departamento de Biología, Bioquímica y Farmacia",
-            "area": "Ciencias Naturales",
+            "area": "Ciencias de la Salud",
             "modalidad": "Presencial",
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://www.bbf.uns.edu.ar/"
+            "url": "https://www.bbf.uns.edu.ar/34-muestra-informativa-de-carreras-de-ensenanza-superior/"
       },
       {
             "titulo": "Profesorado en Ciencias Biológicas",
@@ -538,7 +538,7 @@ const propuestas = [
             "duracion": "8 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://www.bbf.uns.edu.ar/oferta-academica/profesorado-biologia/"
+            "url": "https://www.bbf.uns.edu.ar/34-muestra-informativa-de-carreras-de-ensenanza-superior/"
       },
       {
             "titulo": "Variado",
@@ -2048,7 +2048,7 @@ const propuestas = [
             "duracion": "12 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cienciasdelasalud.uns.edu.ar/quiero-estudiar-en-dcs/medicina/"
+            "url": "https://cienciasdelasalud.uns.edu.ar/medicina/"
       },
       {
             "titulo": "Licenciatura en Enfermería",
@@ -2058,7 +2058,7 @@ const propuestas = [
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cienciasdelasalud.uns.edu.ar/inicio/soy-estudiante-2/lic-enfermeria/"
+            "url": "https://cienciasdelasalud.uns.edu.ar/licenciatura-en-enfermeria/"
       },
       {
             "titulo": "Licenciatura en Obstetricia",
@@ -2068,7 +2068,7 @@ const propuestas = [
             "duracion": "10 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cienciasdelasalud.uns.edu.ar/inicio/soy-estudiante-2/lic-obstetricia/"
+            "url": "https://cienciasdelasalud.uns.edu.ar/licenciatura-en-obstetricia/"
       },
       {
             "titulo": "Tecnicatura en Acompañamiento Terapéutico",
@@ -2078,7 +2078,7 @@ const propuestas = [
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
-            "url": "https://cienciasdelasalud.uns.edu.ar/quiero-estudiar-en-dcs/tecnicatura-universitaria-en-acompanamiento-terapeutico/"
+            "url": "https://cienciasdelasalud.uns.edu.ar/tecnicatura-universitaria-en-acompanamiento-terapeutico/"
       },
       {
             "titulo": "Gastronomia",

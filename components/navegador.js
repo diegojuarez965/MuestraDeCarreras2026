@@ -57,7 +57,7 @@ class Navegador extends HTMLElement {
                 <a href="index-muestra.html">INICIO</a>
               </li>
               <li class="menu-enlace">
-                <a href="#">ACTIVIDADES</a>
+                <a href="actividades.html">ACTIVIDADES</a>
               </li>
               <li class="menu-enlace">
                 <a href="https://www.doe.grupodxbb.com.ar/" target="_blank">DOE</a>

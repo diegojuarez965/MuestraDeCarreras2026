@@ -1,25 +1,24 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/estilo-muestra.css" />
-    <link rel="shortcut icon" href="img/isotipo.jpeg" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <script src="components/navegador.js"></script>
-    <script src="components/pie-pagina.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Muestra de Carreras</title>
-  </head>
+  <link rel="stylesheet" href="css/estilo-muestra.css" />
+  <link rel="shortcut icon" href="img/isotipo.jpeg" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <script src="components/navegador.js"></script>
+  <script src="components/pie-pagina.js"></script>
 
-  <body>
-    <section class="contenido">
-      <menu-navegador></menu-navegador>
+  <title>Muestra de Carreras</title>
+</head>
+
+<body>
+  <section class="contenido">
+    <menu-navegador></menu-navegador>
 
     <!--  <section class="presentacion">
         <div class="presentacion-contenedor">
@@ -47,139 +46,111 @@
     <section class="presentacion-responsive">
       <div>
 
-          <div class="pr-1">
-            <img src="img/mic-responsive.png" alt="">
-          </div>
+        <div class="pr-1">
+          <img src="img/mic-responsive.png" alt="">
+        </div>
 
-          <div class="pr-2">
-            <img src="img/mic-texto.png" alt="">
-          </div>
+        <div class="pr-2">
+          <img src="img/mic-texto.png" alt="">
+        </div>
 
       </div>
     </section>
 
-
-
-      <section class="video">
-        <div class="videos">
-          <img src="img/portada-video.png" alt="Portada" />
-        </div>
-      </section>
-
-      <section class="video" style="display: none">
-        <div class="videos">
-          <iframe
-            style="width: 100%; height: 100%; display: block"
-            src="https://www.youtube.com/embed/NGzN_Vo0LJQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="
+    <section class="video">
+      <div class="videos">
+        <iframe style="width: 100%; height: 100%; display: block" src="https://www.youtube.com/embed/QEZb4T83TgI"
+          title="YouTube video player" frameborder="0" allow="
               accelerometer;
-              autoplay;
               clipboard-write;
               encrypted-media;
               gyroscope;
               picture-in-picture;
               web-share;
-            "
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
-
-      <section class="buscador">
-        <div class="cartelera">
-          <div class="div-img">
-            <img
-              src="img/cartelera.png"
-              alt="Cartelera Muestra de Carreras 2026"
-            />
-          </div>
-        </div>
-
-        <div class="buscar">
-          <div class="card">
-            <div class="campo">
-              <label for="institucion">Institución</label>
-              <select id="institucion">
-                <option value="">Cualquiera...</option>
-              </select>
-            </div>
-
-            <div class="campo">
-              <label for="area">Área disciplinar</label>
-              <select id="area">
-                <option value="">Cualquiera...</option>
-              </select>
-            </div>
-
-            <div class="campo">
-              <label for="modalidad">Modalidad de Dictado</label>
-              <select id="modalidad">
-                <option value="">Cualquiera...</option>
-              </select>
-            </div>
-
-            <div class="campo">
-              <label for="duracion">Duración</label>
-              <select id="duracion">
-                <option value="">Cualquiera...</option>
-              </select>
-            </div>
-
-            <div class="campo">
-              <label for="localidad">Localidad de Dictado</label>
-              <select id="localidad">
-                <option value="">Cualquiera...</option>
-              </select>
-            </div>
-
-            <div class="campo">
-              <label for="arancelada">¿Es arancelada?</label>
-              <select id="arancelada">
-                <option value="">Cualquiera...</option>
-              </select>
-            </div>
-
-            <button class="btn-buscar" onclick="buscar()">
-              Buscar
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <circle cx="11" cy="11" r="7"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
-            </button>
-
-            <div class="resultados" id="resultados" style="display: none">
-              <p class="resultados-header" id="resultados-header"></p>
-              <div class="resultados-grid" id="resultados-grid"></div>
-              <div class="paginacion" id="paginacion"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="cronograma">
-        <div>
-          <img
-            src="img/cronograma.png"
-            alt="Cronograma de la Muestra de Carreras 2026"
-          />
-        </div>
-      </section>
+            " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
     </section>
 
-    <pie-pagina></pie-pagina>
+    <section class="buscador">
+      <div class="cartelera">
+        <div class="div-img">
+          <img src="img/cartelera.png" alt="Cartelera Muestra de Carreras 2026" />
+        </div>
+      </div>
 
-    <script src="js/propuestas.js"></script>
-    <script src="js/buscador.js"></script>
-  </body>
+      <div class="buscar">
+        <div class="card">
+          <div class="campo">
+            <label for="institucion">Institución</label>
+            <select id="institucion">
+              <option value="">Cualquiera...</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="area">Área disciplinar</label>
+            <select id="area">
+              <option value="">Cualquiera...</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="modalidad">Modalidad de Dictado</label>
+            <select id="modalidad">
+              <option value="">Cualquiera...</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="duracion">Duración</label>
+            <select id="duracion">
+              <option value="">Cualquiera...</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="localidad">Localidad de Dictado</label>
+            <select id="localidad">
+              <option value="">Cualquiera...</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="arancelada">¿Es arancelada?</label>
+            <select id="arancelada">
+              <option value="">Cualquiera...</option>
+            </select>
+          </div>
+
+          <button class="btn-buscar" onclick="buscar()">
+            Buscar
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+
+          <div class="resultados" id="resultados" style="display: none">
+            <p class="resultados-header" id="resultados-header"></p>
+            <div class="resultados-grid" id="resultados-grid"></div>
+            <div class="paginacion" id="paginacion"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cronograma">
+      <div>
+        <img src="img/cronograma.png" alt="Cronograma de la Muestra de Carreras 2026" />
+      </div>
+    </section>
+  </section>
+
+  <pie-pagina></pie-pagina>
+
+  <script src="js/propuestas.js"></script>
+  <script src="js/buscador.js"></script>
+</body>
+
 </html>

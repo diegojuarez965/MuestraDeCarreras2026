@@ -1,0 +1,492 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cronograma de actividades</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,500;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+  .cronograma{
+    --cream:      #fff7f0;
+    --cream-2:    #fdeedd;
+    --blue:       #1976ff;
+    --blue-ink:   #0c4fbd;
+    --blue-tint:  #eaf2ff;
+    --navy:       #2f3f50;
+    --gold:       #ECA000;
+    --gold-tint:  #fdecd2;
+    --line:       #e9ddcf;
+    --radius:     18px;
+  }
+
+  .cronograma *{ box-sizing:border-box; }
+
+  .cronograma{
+    background:var(--cream);
+    color:var(--navy);
+    font-family:'Plus Jakarta Sans', system-ui, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .cronograma a{ color:inherit; }
+
+ 
+  .cronograma .hero{
+    position:relative;
+     margin-top: -3%;
+    padding-bottom: 3%;
+    text-align:center;
+    overflow:hidden;
+   
+  }
+
+
+  .cronograma .hero p.lede{
+    max-width:620px;
+    margin:0 auto;
+    font-size:1.05rem;
+    line-height:1.6;
+    color:#5a6a7c;
+  }
+
+  
+ 
+  .cronograma .quicknav{
+    position:sticky;
+    top:0; 
+    z-index:20;
+    background:rgba(255,247,240,.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+    padding:12px 16px;
+  }
+
+  .cronograma .quicknav ul{
+    list-style:none;
+    display:flex;
+    gap:8px;
+    margin:0;
+    padding:5px 0 12px 0;
+    overflow-x:auto;
+    overflow-y:hidden; 
+    -webkit-overflow-scrolling:touch;
+    scroll-snap-type:x proximity;
+    max-width:1080px;
+    margin-inline:auto;
+    scrollbar-width:thin;
+    scrollbar-color: var(--blue) transparent;
+  }
+ 
+
+  .cronograma .quicknav a{
+    white-space:nowrap;
+    text-decoration:none;
+    font-size:.82rem;
+    font-weight:700;
+    color:var(--navy);
+    background:#fff;
+    border:1px solid var(--line);
+    padding:7px 14px;
+    border-radius:999px;
+    transition:background .15s ease, color .15s ease, border-color .15s ease, transform .15s ease;
+  }
+
+  .cronograma .quicknav a:hover{
+    background:var(--blue);
+    border-color:var(--blue);
+    color:#fff;
+    transform:translateY(-1px);
+  }
+
+ 
+  .cronograma main{
+    max-width:1080px;
+    margin:0 auto;
+    padding:52px 20px 90px;
+  }
+
+  .cronograma .room{
+    scroll-margin-top:70px;
+    margin-bottom:56px;
+  }
+
+  .cronograma .room-header{
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+    flex-wrap:wrap;
+    margin-bottom:18px;
+    padding-bottom:14px;
+    border-bottom:2px solid var(--navy);
+  }
+
+  .cronograma .room-tag{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size:.78rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:#fff;
+    background:var(--navy);
+    padding:5px 12px;
+    border-radius:8px 8px 0 0;
+  }
+
+  .cronograma .room-header h2{
+    font-family:'Fraunces', serif;
+    font-style:italic;
+    font-weight:600;
+    font-size:clamp(1.4rem, 2.6vw, 1.9rem);
+    margin:0;
+    color:var(--blue);
+    flex:1 1 auto;
+  }
+
+  .cronograma .room-location{
+    margin:0;
+    font-size:.85rem;
+    font-weight:600;
+    color:#8a97a6;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+  }
+
+ 
+  .cronograma .table-wrap{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+    box-shadow:0 10px 30px -18px rgba(47,63,80,.25);
+  }
+
+  .cronograma table{
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+  }
+
+  .cronograma thead th{
+    font-family:'Plus Jakarta Sans', sans-serif;
+    font-size:.78rem;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    font-weight:800;
+    text-align:left;
+    padding:14px 18px;
+    color:#fff;
+  }
+
+  .cronograma th.th-time{ width:17%; background:var(--navy); }
+  .cronograma th.th-jue{ width:41.5%; background:var(--blue); }
+  .cronograma th.th-vie{ width:41.5%; background:var(--gold); color:var(--navy); }
+
+  .cronograma tbody td{
+    vertical-align:top;
+    padding:16px 18px;
+    font-size:.92rem;
+    line-height:1.45;
+    border-top:1px solid var(--line);
+  }
+
+  .cronograma tbody tr:nth-child(even){ background:#fffdfa; }
+
+  .cronograma tbody tr:hover{ background:var(--cream-2); }
+
+  .cronograma td.time{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size:.95rem;
+    color:var(--navy);
+    white-space:normal;
+  }
+
+  .cronograma td.jue{ border-left:3px solid var(--blue-tint); }
+  .cronograma td.vie{ border-left:3px solid var(--gold-tint); }
+
+  .cronograma td strong{
+    display:block;
+    font-weight:700;
+    color:var(--navy);
+    margin-bottom:3px;
+  }
+
+  .cronograma td span.sub{
+    display:block;
+    font-size:.82rem;
+    color:#7c8a99;
+    font-weight:500;
+  }
+
+  .cronograma td.empty{
+    color:#c7bfb2;
+    font-style:italic;
+    font-size:.85rem;
+  }
+
+ 
+  .cronograma .cronograma-note{
+    text-align:center;
+    padding:36px 20px 60px;
+    font-size:.8rem;
+    color:#9aa7b3;
+  }
+
+ 
+  @media (max-width: 720px){
+    .cronograma .hero p.lede{ font-size:0.7rem;}
+    .cronograma table, .cronograma thead, .cronograma tbody, .cronograma tr, .cronograma th, .cronograma td{ display:block; width:100% !important; }
+    .cronograma thead{ display:none; }
+    .cronograma tbody tr{ border-top:1px solid var(--line); padding:14px 4px; }
+    .cronograma tbody tr:first-child{ border-top:none; }
+    .cronograma tbody td{ border-top:none; padding:6px 14px; }
+    .cronograma td.time{
+      display:inline-block;
+      background:var(--navy);
+      color:#fff;
+      border-radius:999px;
+      padding:4px 12px;
+      font-size:.8rem;
+      margin:6px 14px 8px;
+    }
+    .cronograma td.jue::before, .cronograma td.vie::before{
+      content:attr(data-day);
+      display:block;
+      font-size:.7rem;
+      font-weight:800;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      margin-bottom:4px;
+    }
+    .cronograma td.jue::before{ color:var(--blue-ink); }
+    .cronograma td.vie::before{ color:#b5771c; }
+    .cronograma td.jue{ border-left:none; border-top:2px solid var(--blue-tint); padding-top:10px; }
+    .cronograma td.vie{ border-left:none; border-top:2px solid var(--gold-tint); padding-top:10px; }
+  }
+
+</style>
+<body>
+  
+  
+<div class="cronograma">
+ <div class="hero">
+     <p class="lede">Cronograma completo de charlas, talleres y experiencias</p>
+     <p class="lede">13 y 14 de agosto de 9 a 18 h.  |  Campus Palihue - Uns. </p>
+  </div>
+
+  <nav class="quicknav">
+    <ul>
+      <li><a href="#aula-14">Aula 14</a></li>
+      <li><a href="#aula-19">Aula 19</a></li>
+      <li><a href="#aula-17">Aula 17</a></li>
+      <li><a href="#aula-18">Aula 18</a></li>
+      <li><a href="#aula-1">Aula 1</a></li>
+      <li><a href="#lab-multiples">Lab. Usos Múltiples</a></li>
+      <li><a href="#lab-diec">Lab. Abierto DIEC</a></li>
+      <li><a href="#recorridos">Recorridos</a></li>
+      <li><a href="#patio">Patio</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- AULA 14 -->
+    <section class="room" id="aula-14">
+      <div class="room-header">
+        <span class="room-tag">Aula 14</span>
+        <h2>Talleres y charlas</h2>
+      </div>
+      <p class="room-location">Edificio Rojo</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">9:30 – 10</td><td class="jue" data-day="Jueves"><strong>Charla del C.F.P N° 402</strong></td><td class="vie" data-day="Viernes"><strong>Hora silenciosa</strong><span class="sub">Espacio de autorregulación</span></td></tr>
+            <tr><td class="time">10 – 11</td><td class="jue" data-day="Jueves"><strong>Charla UNISAL</strong></td><td class="vie" data-day="Viernes"><strong>Diseñar en el territorio</strong><span class="sub">Carreras de Diseño de la UPSO</span></td></tr>
+            <tr><td class="time">11 – 13</td><td class="jue" data-day="Jueves"><strong>Educación financiera para la vida cotidiana</strong><span class="sub">Dto. Cs. de la Administración UNS</span></td><td class="vie" data-day="Viernes"><strong>Charla DIEC – UNS</strong><span class="sub">Sobre vocaciones afines al DIEC</span></td></tr>
+            <tr><td class="time">13 – 13:30</td><td class="jue" data-day="Jueves"><strong>Coro Juvenil de la UNS</strong></td><td class="vie" data-day="Viernes"><strong>Medir para conocer</strong><span class="sub">Antropometría y Nutrición — UCAPL</span></td></tr>
+            <tr><td class="time">13:45 – 14:30</td><td class="jue" data-day="Jueves"><strong>Taller Juan XXIII</strong><span class="sub">Habitar el nivel superior: desafíos, experiencias y oportunidades</span></td><td class="vie" data-day="Viernes"><strong>Taller UNISAL</strong><span class="sub">Proyectate: experimentá tu futuro en Derecho, Psicología o Comunicación</span></td></tr>
+            <tr><td class="time">14:30 – 15</td><td class="jue" data-day="Jueves"><strong>Charla DCIC – UNS</strong><span class="sub">Introducción al proceso de desarrollo de software</span></td><td class="vie" data-day="Viernes"><strong>Charla C.F.P N° 403</strong></td></tr>
+            <tr><td class="time">15 – 15:30</td><td class="jue" data-day="Jueves"><strong>Charla DIEC – UNS</strong><span class="sub">Sobre vocaciones afines al DIEC</span></td><td class="vie" data-day="Viernes"><strong>Charla Inst. Juan XXIII</strong></td></tr>
+            <tr><td class="time">15:30 – 16</td><td class="jue" data-day="Jueves"><strong>Educación vial con Blue-Bots</strong><span class="sub">Dto. Educación UNS</span></td><td class="vie" data-day="Viernes"><strong>Charla UTN</strong></td></tr>
+            <tr><td class="time">16 – 17</td><td class="jue" data-day="Jueves"><strong>¿Cómo elijo mi vocación?</strong><span class="sub">Dto. de Ingeniería UNS</span></td><td class="vie" data-day="Viernes"><strong>Charla-Taller · Educ. Inicial y Primaria</strong><span class="sub">Aportes desde las Cs. Sociales — Dto. Cs. Educación UNS</span></td></tr>
+            <tr><td class="time">17 – 18</td><td class="jue" data-day="Jueves"><strong>Hora silenciosa</strong><span class="sub">Espacio de autorregulación</span></td><td class="vie" data-day="Viernes"><strong>Ensamble de Saxo</strong><span class="sub">Conservatorio</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- AULA 19 -->
+    <section class="room" id="aula-19">
+      <div class="room-header">
+        <span class="room-tag">Aula 19</span>
+        <h2>Charlas y talleres</h2>
+      </div>
+      <p class="room-location">Edificio Verde</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">9:30 – 10:30</td><td class="jue" data-day="Jueves"><strong>Charla UNS</strong><span class="sub">SGA – SGBU</span></td><td class="vie" data-day="Viernes"><strong>Charla UNS</strong><span class="sub">SGA – SGBU</span></td></tr>
+            <tr><td class="time">10:30 – 11</td><td class="jue" data-day="Jueves"><strong>Cuentos al oído</strong><span class="sub">Prof. de Educ. Inicial y Primaria — Dto. Cs. Educación UNS</span></td><td class="vie" data-day="Viernes"><strong>GOTA y sus carreras</strong><span class="sub">Geografía, Oceanografía, Turismo y Arquitectura — Dto. Geog. y Turismo UNS</span></td></tr>
+            <tr><td class="time">11 – 12</td><td class="jue" data-day="Jueves"><strong>Taller de Orientación Vocacional</strong><span class="sub">DOE</span></td><td class="vie" data-day="Viernes"><strong>Taller de Orientación Vocacional</strong><span class="sub">DOE</span></td></tr>
+            <tr><td class="time">12 – 13</td><td class="jue" data-day="Jueves"><strong>Taller CFP N° 402</strong><span class="sub">Multiplicación de plantas por esquejes</span></td><td class="vie" data-day="Viernes"><strong>Charla UCALP</strong></td></tr>
+            <tr><td class="time">13 – 13:30</td><td class="jue" data-day="Jueves"><strong>¿Qué es la Terapia Ocupacional?</strong><span class="sub">UCALP (horario tentativo)</span></td><td class="vie" data-day="Viernes"><strong>Charla Dto. Biología, Bioquímica y Farmacia UNS</strong></td></tr>
+            <tr><td class="time">13:30 – 14</td><td class="jue" data-day="Jueves"><strong>Charla UNS</strong><span class="sub">SGA – SGBU</span></td><td class="vie" data-day="Viernes"><strong>Charla UNS</strong><span class="sub">SGA – SGBU</span></td></tr>
+            <tr><td class="time">14 – 14:30</td><td class="jue" data-day="Jueves"><strong>Charla sobre Arquitectura</strong><span class="sub">Dto. de Geog. y Turismo (GOTA)</span></td><td class="vie" data-day="Viernes"><strong>Taller de RCP</strong></td></tr>
+            <tr><td class="time">14:30 – 15</td><td class="jue" data-day="Jueves"><strong>Charla Dto. Ing. Química</strong></td><td class="vie" data-day="Viernes"><strong>Dto. de Cs. de la Salud UNS</strong></td></tr>
+            <tr><td class="time">15 – 16</td><td class="jue" data-day="Jueves"><strong>Conversatorio</strong><span class="sub">Inst. Ma. Auxiliadora</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+            <tr><td class="time">16 – 17</td><td class="jue" data-day="Jueves"><strong>Taller de Orientación Vocacional</strong><span class="sub">DOE</span></td><td class="vie" data-day="Viernes"><strong>Taller de Orientación Vocacional</strong><span class="sub">DOE</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- AULA 17 -->
+    <section class="room" id="aula-17">
+      <div class="room-header">
+        <span class="room-tag">Aula 17</span>
+        <h2>Charlas y experiencias</h2>
+      </div>
+      <p class="room-location">Edificio Verde</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">9 h</td><td class="jue" data-day="Jueves"><strong>Taller de Costura</strong><span class="sub">C.F.P N° 402</span></td><td class="vie" data-day="Viernes"><strong>Taller de Costura</strong><span class="sub">C.F.P N° 402</span></td></tr>
+            <tr><td class="time">10:30 h</td><td class="jue" data-day="Jueves"><strong>Charla sobre Oceanografía</strong><span class="sub">Dto. de Geog. y Turismo (GOTA)</span></td><td class="vie" data-day="Viernes"><strong>Inst. Sup. de la Bahía / Inst. de Comunicación Social</strong></td></tr>
+            <tr><td class="time">13 h</td><td class="jue" data-day="Jueves"><strong>Taller de Nutrición</strong><span class="sub">C.F.P N° 402</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+            <tr><td class="time">15:30 h</td><td class="jue" data-day="Jueves"><strong>Desafío M: ¿Aceptás el reto?</strong><span class="sub">Dto. Matemática UNS</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- AULA 18 -->
+    <section class="room" id="aula-18">
+      <div class="room-header">
+        <span class="room-tag">Aula 18</span>
+        <h2>Experiencias</h2>
+      </div>
+      <p class="room-location">Edificio Verde</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">10 h</td><td class="jue" data-day="Jueves"><strong>Análisis Sensorial</strong><span class="sub">Taller Dto. Ing. Química UNS</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+            <tr><td class="time">15:30 h</td><td class="jue empty" data-day="Jueves">Sin actividad programada</td><td class="vie" data-day="Viernes"><strong>Cubiertos de plata</strong><span class="sub">Taller Dto. Ing. Química UNS</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- AULA 1 -->
+    <section class="room" id="aula-1">
+      <div class="room-header">
+        <span class="room-tag">Aula 1</span>
+        <h2>Charlas</h2>
+      </div>
+      <p class="room-location">Dto. de Economía</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">11 – 12 h</td><td class="jue" data-day="Jueves"><strong>Opciones para un Licenciado en Economía en el mercado laboral</strong><span class="sub">Dto. de Economía (UNS)</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- LABORATORIO DE USOS MÚLTIPLES -->
+    <section class="room" id="lab-multiples">
+      <div class="room-header">
+        <span class="room-tag">Experiencias en laboratorio</span>
+        <h2>Laboratorio de Usos Múltiples</h2>
+      </div>
+      <p class="room-location">Edificio de Agronomía</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">11 h</td><td class="jue" data-day="Jueves"><strong>Modo Laboratorio</strong><span class="sub">Un viaje visual al mundo de las reacciones — Dto. de Química</span></td><td class="vie" data-day="Viernes"><strong>Enseñar Ciencias Naturales desde la experiencia</strong><span class="sub">Dto. Educación (UNS)</span></td></tr>
+            <tr><td class="time">15 h</td><td class="jue" data-day="Jueves"><strong>Mosquitos: los enemigos más pequeños (y más letales) del mundo</strong><span class="sub">Dto. de Biología, Bioquímica y Farmacia UNS</span></td><td class="vie" data-day="Viernes"><strong>Bioquímica en acción: una muestra, muchas respuestas</strong><span class="sub">Dto. de Biología, Bioquímica y Farmacia UNS</span></td></tr>
+            <tr><td class="time">16 h</td><td class="jue" data-day="Jueves"><strong>El futuro de los medicamentos: ¿golosinas que curan?</strong><span class="sub">Dto. de Biología, Bioquímica y Farmacia UNS</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- LABORATORIO ABIERTO DIEC -->
+    <section class="room" id="lab-diec">
+      <div class="room-header">
+        <span class="room-tag">Experiencias en laboratorio</span>
+        <h2>Laboratorio abierto</h2>
+      </div>
+      <p class="room-location">Edificio del DIEC</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">11 h</td><td class="jue" data-day="Jueves"><strong>Experiencia en laboratorio abierto del DIEC</strong><span class="sub">UNS</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+            <tr><td class="time">15 h</td><td class="jue empty" data-day="Jueves">Sin actividad programada</td><td class="vie" data-day="Viernes"><strong>Experiencia en laboratorio abierto del DIEC</strong><span class="sub">UNS</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- RECORRIDOS -->
+    <section class="room" id="recorridos">
+      <div class="room-header">
+        <span class="room-tag">Recorridos</span>
+        <h2>Visitas guiadas</h2>
+      </div>
+      <p class="room-location">Consultar detalles en los stands de las instituciones</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">9:30 h</td><td class="jue" data-day="Jueves"><strong>Dto. de Ing. Eléctrica y de Comp.</strong><span class="sub">DIEC – UNS · Duración 40 min.</span></td><td class="vie" data-day="Viernes"><strong>Dto. de Ing. Eléctrica y de Comp.</strong><span class="sub">DIEC – UNS · Duración 40 min.</span></td></tr>
+            <tr><td class="time">10 h</td><td class="jue" data-day="Jueves"><strong>Observación de aves</strong><span class="sub">BByF – UNS · Encuentro en la entrada del Edif. Rojo</span></td><td class="vie" data-day="Viernes"><strong>Observación de aves</strong><span class="sub">BByF – UNS · Encuentro en la entrada del Edif. Rojo</span></td></tr>
+            <tr><td class="time">11 h</td><td class="jue empty" data-day="Jueves">Sin actividad programada</td><td class="vie" data-day="Viernes"><strong>Café económico UNS</strong><span class="sub">Aula 1 (Economía)</span></td></tr>
+            <tr><td class="time">13 h</td><td class="jue" data-day="Jueves"><strong>Dto. Derecho UNS</strong></td><td class="vie" data-day="Viernes"><strong>Dto. Derecho UNS</strong></td></tr>
+            <tr><td class="time">13:30 h</td><td class="jue" data-day="Jueves"><strong>Dto. de Ing. Eléctrica y de Comp.</strong><span class="sub">UNS · Duración 40 min.</span></td><td class="vie" data-day="Viernes"><strong>Dto. de Ing. Eléctrica y de Comp.</strong><span class="sub">UNS · Duración 40 min.</span></td></tr>
+            <tr><td class="time">14 h</td><td class="jue" data-day="Jueves"><strong>Observando el Campus desde arriba</strong><span class="sub">Dto. Geografía – UNS · Terraza de Agronomía</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+            <tr><td class="time">15 h</td><td class="jue" data-day="Jueves"><strong>Café económico UNS</strong><span class="sub">Aula 1 (Economía)</span></td><td class="vie" data-day="Viernes"><strong>Observando el Campus desde arriba</strong><span class="sub">Dto. Geografía – UNS · Terraza de Agronomía</span></td></tr>
+            <tr><td class="time">16 h</td><td class="jue" data-day="Jueves"><strong>Observación de aves</strong><span class="sub">BByF – UNS · Encuentro en la entrada del Edif. Rojo</span></td><td class="vie" data-day="Viernes"><strong>Observación de aves</strong><span class="sub">BByF – UNS · Encuentro en la entrada del Edif. Rojo</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- PATIO -->
+    <section class="room" id="patio" style="margin-bottom: -7%;">
+      <div class="room-header">
+        <span class="room-tag">Espectáculos</span>
+        <h2>En el patio</h2>
+      </div>
+      <p class="room-location">Patio entre el Edificio Rojo y el Verde</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="th-time">Hora</th><th class="th-jue">Jueves 13/08</th><th class="th-vie">Viernes 14/08</th></tr></thead>
+          <tbody>
+            <tr><td class="time">11 h</td><td class="jue empty" data-day="Jueves">Sin actividad programada</td><td class="vie" data-day="Viernes"><strong>Presentación de folklore</strong><span class="sub">Escuela de Danza Alba Lutecia</span></td></tr>
+            <tr><td class="time">16 – 17 h</td><td class="jue" data-day="Jueves"><strong>Presentación de Danza Contemporánea</strong><span class="sub">Escuela de Danza Alba Lutecia</span></td><td class="vie empty" data-day="Viernes">Sin actividad programada</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+ 
+</div>
+
+</body>
+
+</html>

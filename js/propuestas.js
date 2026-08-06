@@ -131,16 +131,6 @@ const propuestas = [
             "url": "https://derecho.uns.edu.ar/abogacia-muestra-de-carreras/"
       },
       {
-            "titulo": "Tecnicatura Superior en Traductorado Técnico -Científico en Lengua Inglesa",
-            "institucion": "Instituto Goyena",
-            "area": "Ciencias Humanas y Sociales",
-            "modalidad": "Presencial",
-            "duracion": "6 cuatrimestres",
-            "localidad": "Bahía Blanca",
-            "arancelada": "Sí",
-            "url": "https://share.google/eTvnulkORvPBFnh52"
-      },
-      {
             "titulo": "Oficiales y Suboficiales de la Armada",
             "institucion": "Armada Argentina",
             "area": "Ciencias Económicas y Administración",
@@ -174,7 +164,7 @@ const propuestas = [
             "titulo": "Tecnicatura Universitaria en Emprendimientos Agroalimentarios",
             "institucion": "UNS - Departamento de Ingeniería Química",
             "area": "Tecnológicas",
-            "modalidad": "Virtual",
+            "modalidad": "Presencial",
             "duracion": "6 cuatrimestres",
             "localidad": "Bahía Blanca",
             "arancelada": "No",
@@ -3019,5 +3009,95 @@ const propuestas = [
             "localidad": "Bahía Blanca",
             "arancelada": "No",
             "url": "https://cbblanca-bue.infd.edu.ar/sitio/oferta-educativa/"
+      },
+      {
+            "titulo": "Profesorado de Educación Física",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "8 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/profesorado-de-educacion-fisica/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Producción Agrícola Ganadera",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Agropecuarias y Agroindustriales",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-produccion-agricola-ganadera/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Régimen Aduanero y Negocios Internacionales",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Económicas y Administración",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-regimen-aduanero-y-negocios-internacionales/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Servicios Gastronómicos",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-servicios-gastronomicos/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Traductorado Técnico-Científico en Lengua Inglesa",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-traductorado-tecnico-cientifico-en-lengua-inglesa/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Hotelería",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Humanas y Sociales",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-hoteleria/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Administración Financiera",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Económicas y Administración",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-administracion-financiera/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Viticultura y Enología",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Agropecuarias y Agroindustriales",
+            "modalidad": "Presencial",
+            "duracion": "5 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-viticultura-y-enologia/"
+      },
+      {
+            "titulo": "Tecnicatura Superior en Logística",
+            "institucion": "Instituto Goyena",
+            "area": "Ciencias Económicas y Administración",
+            "modalidad": "Presencial",
+            "duracion": "6 cuatrimestres",
+            "localidad": "Bahía Blanca",
+            "arancelada": "Sí",
+            "url": "https://institutogoyena.edu.ar/tecnicatura-superior-en-logistica/"
       }
 ];

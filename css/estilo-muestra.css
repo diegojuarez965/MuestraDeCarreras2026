@@ -15,7 +15,12 @@ body {
   overflow-x: hidden;
 }
 
-menu-navegador,
+menu-navegador {
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
 pie-pagina {
   display: block;
 }
@@ -280,8 +285,18 @@ pie-pagina {
   margin-left: 6%;
 }
 
-.cronograma>div>img {
+.cronograma>div>a {
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cronograma>div>a:hover {
+  transform: scale(1.015);
+}
+
+.cronograma>div>a>img {
   width: 100%;
+  display: block;
 }
 
 .pie {

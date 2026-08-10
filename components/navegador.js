@@ -19,6 +19,8 @@ class Navegador extends HTMLElement {
               title="Menú"
               aria-label="Abrir menú"
               id="btnMenu"
+              aria-expanded="false"
+              aria-controls="menuHorizontal"
             >
               <svg
                 width="26"
@@ -52,7 +54,7 @@ class Navegador extends HTMLElement {
                 ></line>
               </svg>
             </button>
-            <ul class="menu-horizontal">
+            <ul class="menu-horizontal" id="menuHorizontal">
               <li class="menu-enlace">
                 <a href="index-muestra.html">INICIO</a>
               </li>

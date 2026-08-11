@@ -418,37 +418,50 @@ pie-pagina {
   box-shadow: 0 0 0 2px #2e7bf4;
 }
 
+.buscar .buscar-botones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.buscar .btn-limpiar,
 .buscar .btn-buscar {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 8px;
-  margin: 28px 0 0 auto;
+  justify-content: center;
   background: none;
   border: none;
+  cursor: pointer;
   color: #1976ff;
   font-weight: 600;
   font-size: 1.4rem;
-  cursor: pointer;
+  gap: 8px;
   padding: 0;
   transition:
     color 0.2s,
     transform 0.1s;
+  margin: 0;
 }
 
+.buscar .btn-limpiar:hover,
 .buscar .btn-buscar:hover {
   color: #0d54c9;
 }
 
+.buscar .btn-limpiar:active,
 .buscar .btn-buscar:active {
   transform: scale(0.97);
 }
 
+.buscar .btn-limpiar svg,
 .buscar .btn-buscar svg {
   width: 22px;
   height: 22px;
   flex-shrink: 0;
 }
+
 
 .buscar .resultados {
   margin-top: 32px;

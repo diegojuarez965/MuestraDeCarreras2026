@@ -28,7 +28,14 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME)
       .then((cache) => {
         console.log('[Service Worker] Pre-cacheando recursos del sitio...');
-        return cache.addAll(ASSETS);
+        return Promise.allSettled(
+          ASSETS.map((asset) => {
+            return cache.add(asset)
+              .catch((err) => {
+                console.error(`[Service Worker] Error al cachear "${asset}":`, err);
+              });
+          })
+        );
       })
       .then(() => self.skipWaiting())
   );

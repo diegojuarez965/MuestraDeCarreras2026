@@ -905,6 +905,21 @@ pie-pagina {
     width: 100%;
   }
 
+  .buscar .card {
+    padding: 20px 18px 24px;
+  }
+
+  .buscar .btn-buscar,
+  .buscar .btn-limpiar {
+    font-size: 1.15rem;
+  }
+
+  .buscar .btn-buscar svg,
+  .buscar .btn-limpiar svg {
+    width: 18px;
+    height: 18px;
+  }
+
   .paginacion {
     gap: 6px;
     flex-wrap: nowrap;

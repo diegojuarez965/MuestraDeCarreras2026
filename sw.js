@@ -1,6 +1,5 @@
 const CACHE_NAME = 'muestra-carreras-cache-v1';
 const ASSETS = [
-  './',
   'index-muestra.html',
   'actividades.html',
   'css/estilo-muestra.css',

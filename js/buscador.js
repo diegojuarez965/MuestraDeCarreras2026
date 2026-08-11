@@ -171,6 +171,15 @@ function limpiarCampos() {
   document.getElementById("arancelada").value = "";
 }
 
+// Función para limpiar campos y ocultar resultados de búsqueda
+function limpiarTodo() {
+  limpiarCampos();
+  const seccion = document.getElementById("resultados");
+  if (seccion) {
+    seccion.style.display = "none";
+  }
+}
+
 // Función que se ejecuta para filtrar por tag
 function filtrarPorTag(propiedad, valor) {
   limpiarCampos();

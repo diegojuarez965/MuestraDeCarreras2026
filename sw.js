@@ -1,4 +1,4 @@
-const CACHE_NAME = 'muestra-carreras-cache-v1';
+const CACHE_NAME = 'muestra-carreras-cache-v2';
 const ASSETS = [
   'index-muestra.html',
   'actividades.html',

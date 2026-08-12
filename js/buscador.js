@@ -2,6 +2,43 @@ const CANT_POR_PAGINA = 5; // Cantidad de resultados por página
 let resultadosFiltrados = []; // Array que contiene los resultados filtrados
 let paginaActual = 1; // Página actual
 
+// URL de la Web App de Google Apps Script para registrar búsquedas
+const GOOGLE_SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbxifhUfq9EvX8eiNLrP7IBCTgyJrzy8ocoXgaD-D4Tm2VNdZtz0nymw6-LjR_sxN6De/exec";
+
+// Función para enviar los filtros y el resultado de la búsqueda a Google Sheets
+function enviarLogAGoogleSheets(filtros, resultadosEncontrados) {
+  if (!GOOGLE_SHEETS_WEBAPP_URL) {
+    console.warn("Google Sheets Web App URL no configurada.");
+    return;
+  }
+
+  const payload = {
+    institucion: filtros.institucion || "Cualquiera",
+    area: filtros.area || "Cualquiera",
+    modalidad: filtros.modalidad || "Cualquiera",
+    duracion: filtros.duracion || "Cualquiera",
+    localidad: filtros.localidad || "Cualquiera",
+    arancelada: filtros.arancelada || "Cualquiera",
+    resultadosEncontrados: resultadosEncontrados
+  };
+
+  // Se envía como text/plain en modo no-cors para evitar problemas de preflight CORS en el navegador
+  fetch(GOOGLE_SHEETS_WEBAPP_URL, {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "text/plain"
+    },
+    body: JSON.stringify(payload)
+  })
+  .then(() => {
+    console.log("Log de búsqueda enviado con éxito a Google Sheets:", payload);
+  })
+  .catch((error) => {
+    console.error("Error al enviar el log de búsqueda:", error);
+  });
+}
+
 // Función que se ejecuta para buscar propuestas
 function buscar() {
   const institucion = document.getElementById("institucion").value;
@@ -28,6 +65,16 @@ function buscar() {
   paginaActual = 1;
   mostrarResultados(1);
   /*limpiarCampos(); */
+
+  // Enviar los filtros aplicados y la cantidad de resultados a Google Sheets
+  enviarLogAGoogleSheets({
+    institucion,
+    area,
+    modalidad,
+    duracion,
+    localidad,
+    arancelada
+  }, resultadosFiltrados.length);
 }
 
 // Función que se ejecuta para mostrar los resultados en tarjetas

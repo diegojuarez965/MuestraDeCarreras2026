@@ -2,41 +2,45 @@ const CANT_POR_PAGINA = 5; // Cantidad de resultados por página
 let resultadosFiltrados = []; // Array que contiene los resultados filtrados
 let paginaActual = 1; // Página actual
 
-// URL de la Web App de Google Apps Script para registrar búsquedas
-const GOOGLE_SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbxifhUfq9EvX8eiNLrP7IBCTgyJrzy8ocoXgaD-D4Tm2VNdZtz0nymw6-LjR_sxN6De/exec";
+// URL y Token codificados en Base64 para evitar lectura en texto plano
+const _URL_ENC = "aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J3Y19UQ2hIY2YxWFRtelYzYTV1ZFdzbGRyRjk4c3RxbktQVVNLWmtrMXRnajloc2lsS1FwV0VXT0hRZ0hEaThONWYvZXhlYw==";
+const _TOK_ENC = "bWljMjAyNl9sb2dfYXV0aF9zZWNyZXQ=";
 
 // Función para enviar los filtros y el resultado de la búsqueda a Google Sheets
 function enviarLogAGoogleSheets(filtros, resultadosEncontrados) {
-  if (!GOOGLE_SHEETS_WEBAPP_URL) {
-    console.warn("Google Sheets Web App URL no configurada.");
-    return;
+  try {
+    const url = atob(_URL_ENC);
+    const token = atob(_TOK_ENC);
+
+    const payload = {
+      token: token,
+      institucion: filtros.institucion || "Cualquiera",
+      area: filtros.area || "Cualquiera",
+      modalidad: filtros.modalidad || "Cualquiera",
+      duracion: filtros.duracion || "Cualquiera",
+      localidad: filtros.localidad || "Cualquiera",
+      arancelada: filtros.arancelada || "Cualquiera",
+      resultadosEncontrados: resultadosEncontrados
+    };
+
+    // Se envía como text/plain en modo no-cors para evitar problemas de preflight CORS en el navegador
+    fetch(url, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "text/plain"
+      },
+      body: JSON.stringify(payload)
+    })
+      .then(() => {
+        console.log("Log de búsqueda enviado con éxito a Google Sheets (con token de seguridad).");
+      })
+      .catch((error) => {
+        console.error("Error al enviar el log de búsqueda:", error);
+      });
+  } catch (e) {
+    console.error("Error al decodificar o enviar logs:", e);
   }
-
-  const payload = {
-    institucion: filtros.institucion || "Cualquiera",
-    area: filtros.area || "Cualquiera",
-    modalidad: filtros.modalidad || "Cualquiera",
-    duracion: filtros.duracion || "Cualquiera",
-    localidad: filtros.localidad || "Cualquiera",
-    arancelada: filtros.arancelada || "Cualquiera",
-    resultadosEncontrados: resultadosEncontrados
-  };
-
-  // Se envía como text/plain en modo no-cors para evitar problemas de preflight CORS en el navegador
-  fetch(GOOGLE_SHEETS_WEBAPP_URL, {
-    method: "POST",
-    mode: "no-cors",
-    headers: {
-      "Content-Type": "text/plain"
-    },
-    body: JSON.stringify(payload)
-  })
-  .then(() => {
-    console.log("Log de búsqueda enviado con éxito a Google Sheets:", payload);
-  })
-  .catch((error) => {
-    console.error("Error al enviar el log de búsqueda:", error);
-  });
 }
 
 // Función que se ejecuta para buscar propuestas

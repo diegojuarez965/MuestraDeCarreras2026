@@ -23,7 +23,7 @@ function enviarLogAGoogleSheets(filtros, resultadosEncontrados, recaptchaToken) 
       resultadosEncontrados: resultadosEncontrados
     };
 
-    // Se envía como text/plain en modo no-cors para evitar problemas de preflight CORS en el navegador
+    // Se envía como text/plain en modo cors para no realizar petición previa OPTIONS que suele trabar los servidores.
     fetch(url, {
       method: "POST",
       mode: "cors",

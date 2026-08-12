@@ -989,3 +989,14 @@ pie-pagina {
   white-space: nowrap;
   border: 0;
 }
+
+/* Hacer el logo de reCAPTCHA semi-transparente */
+.grecaptcha-badge {
+  opacity: 0.15;
+  transition: opacity 0.3s ease;
+}
+
+/* Mostrarlo completo solo al pasar el cursor */
+.grecaptcha-badge:hover {
+  opacity: 1;
+}

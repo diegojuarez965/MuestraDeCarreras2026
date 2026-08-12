@@ -2,18 +2,18 @@ const CANT_POR_PAGINA = 5; // Cantidad de resultados por página
 let resultadosFiltrados = []; // Array que contiene los resultados filtrados
 let paginaActual = 1; // Página actual
 
-// URL y Token codificados en Base64 para evitar lectura en texto plano
-const _URL_ENC = "aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J3Y19UQ2hIY2YxWFRtelYzYTV1ZFdzbGRyRjk4c3RxbktQVVNLWmtrMXRnajloc2lsS1FwV0VXT0hRZ0hEaThONWYvZXhlYw==";
-const _TOK_ENC = "bWljMjAyNl9sb2dfYXV0aF9zZWNyZXQ=";
+// URL codificada en Base64 para evitar lectura en texto plano
+const _URL_ENC = "aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J6Qk50NThrTUFBVUt4UUZPdDBYU0Q5a2pNUW9nQlpXNUgzckk1U1dpUWY3bnRHY2pzVUIxUGp3WXZPYnJlSWlPQ2gvZXhlYw==";
+// Clave de sitio pública para Google reCAPTCHA v3
+const RECAPTCHA_SITE_KEY = "6Ldys4ItAAAAAFLVVuu44RlKEnhTO1NaVr_qtP6t";
 
-// Función para enviar los filtros y el resultado de la búsqueda a Google Sheets
-function enviarLogAGoogleSheets(filtros, resultadosEncontrados) {
+// Función para enviar los filtros y el resultado de la búsqueda a Google Sheets junto con el token de reCAPTCHA
+function enviarLogAGoogleSheets(filtros, resultadosEncontrados, recaptchaToken) {
   try {
     const url = atob(_URL_ENC);
-    const token = atob(_TOK_ENC);
 
     const payload = {
-      token: token,
+      recaptchaToken: recaptchaToken,
       institucion: filtros.institucion || "Cualquiera",
       area: filtros.area || "Cualquiera",
       modalidad: filtros.modalidad || "Cualquiera",
@@ -26,14 +26,14 @@ function enviarLogAGoogleSheets(filtros, resultadosEncontrados) {
     // Se envía como text/plain en modo no-cors para evitar problemas de preflight CORS en el navegador
     fetch(url, {
       method: "POST",
-      mode: "no-cors",
+      mode: "cors",
       headers: {
         "Content-Type": "text/plain"
       },
       body: JSON.stringify(payload)
     })
       .then(() => {
-        console.log("Log de búsqueda enviado con éxito a Google Sheets (con token de seguridad).");
+        console.log("Log de búsqueda enviado con éxito a Google Sheets (protegido por reCAPTCHA v3).");
       })
       .catch((error) => {
         console.error("Error al enviar el log de búsqueda:", error);
@@ -70,15 +70,25 @@ function buscar() {
   mostrarResultados(1);
   /*limpiarCampos(); */
 
-  // Enviar los filtros aplicados y la cantidad de resultados a Google Sheets
-  enviarLogAGoogleSheets({
-    institucion,
-    area,
-    modalidad,
-    duracion,
-    localidad,
-    arancelada
-  }, resultadosFiltrados.length);
+  // Enviar los filtros aplicados y la cantidad de resultados a Google Sheets protegido con reCAPTCHA v3
+  if (typeof grecaptcha !== "undefined") {
+    grecaptcha.ready(function () {
+      grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: "buscar" }).then(function (token) {
+        enviarLogAGoogleSheets({
+          institucion,
+          area,
+          modalidad,
+          duracion,
+          localidad,
+          arancelada
+        }, resultadosFiltrados.length, token);
+      }).catch(function (error) {
+        console.error("Error al obtener token de reCAPTCHA:", error);
+      });
+    });
+  } else {
+    console.warn("reCAPTCHA no cargado. Se omite el log.");
+  }
 }
 
 // Función que se ejecuta para mostrar los resultados en tarjetas
